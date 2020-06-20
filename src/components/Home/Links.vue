@@ -3,7 +3,7 @@
     <b-button
       v-for="link in links"
       :key="link.link"
-      class="link p-5"
+      class="portfolio-card p-5"
       :to="{name:
       link.link}"
     >{{link.name}}</b-button>
@@ -25,8 +25,4 @@ export default {
 </script>
 
 <style scoped>
-.link {
-  background-color: blueviolet;
-  border-radius: 12px;
-}
 </style>

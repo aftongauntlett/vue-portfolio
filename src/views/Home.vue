@@ -19,3 +19,11 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+>>> .portfolio-card {
+  background-color: rgba(185, 182, 189, 0.801);
+  border-radius: 12px;
+  color: black;
+}
+</style>
