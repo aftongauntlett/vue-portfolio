@@ -19,4 +19,7 @@ export default {};
 </script>
 
 <style scoped>
+.navbar {
+  font-size: 20px;
+}
 </style>
