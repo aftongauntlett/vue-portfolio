@@ -1,6 +1,18 @@
 <template>
   <div class="contact">
-    <h1>This is my contact page</h1>
+    <Buttons />
+    <ContactCard />
   </div>
 </template>
 
+<script>
+import Buttons from "../components/Contact/Buttons";
+import ContactCard from "../components/Contact/ContactCard";
+export default {
+  name: "Contact",
+  components: {
+    Buttons,
+    ContactCard
+  }
+};
+</script>
