@@ -1,5 +1,5 @@
 <template>
-<div class="container d-flex justify-content-center">
+  <div class="container d-flex justify-content-center">
     <b-card title="About Me" tag="article" class="mb-3 mt-5">
       <b-card-text>
         I am a technology-minded individual with a passion for Front End Web Development. Inspired by
@@ -7,9 +7,12 @@
         in research and entrepreneurship, backed with creativity and drive.
         <br />As a recent graduate from George Washington University’s Full Stack Web Development, I have honed skills in the following:
       </b-card-text>
-</div>
+    </b-card>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Paragraph"
+};
 </script>

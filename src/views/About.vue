@@ -1,22 +1,23 @@
 <template>
   <div class="about">
     <Paragraph />
-    <Buttons />
     <TechStack />
+    <Buttons />
   </div>
 </template>
 
 <script>
 import Paragraph from "../components/About/Paragraph";
-import Buttons from "../components/About/Buttons";
 import TechStack from "../components/About/TechStack";
+import Buttons from "../components/About/Buttons";
 export default {
   name: "About",
   components: {
     Paragraph,
-    Buttons,
-    TechStack
+    TechStack,
+    Buttons
   }
 };
+</script>
 
 <style scoped></style>;

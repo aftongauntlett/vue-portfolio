@@ -4,7 +4,7 @@
     <div class="divider"></div>
     <b-button class="aboutButton" href="#" variant="dark">Portfolio</b-button>
 
-    <!-- <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
       <div class="contactCard">
         <a href="https://www.linkedin.com/in/afton-gauntlett/">
           <i class="fa fa-linkedin-square fa-2x pr-3 text-dark"></i>
@@ -22,7 +22,7 @@
           <i class="fa fa-envelope fa-2x text-dark"></i>
         </a>
       </div>
-    </div>-->
+    </div>
   </div>
 </template>
 
