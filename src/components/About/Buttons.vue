@@ -1,8 +1,13 @@
 <template>
   <div>
-    <b-button class="aboutButton" href="#" variant="dark">Contact</b-button>
-    <div class="divider"></div>
-    <b-button class="aboutButton" href="#" variant="dark">Portfolio</b-button>
+    <b-button
+      class="aboutButton ml-3"
+      variant="dark"
+      v-for="link in links"
+      :key="link.link"
+      :to="{name:
+      link.link}"
+    >{{link.name}}</b-button>
 
     <div class="d-flex justify-content-center">
       <div class="contactCard">
@@ -26,25 +31,33 @@
   </div>
 </template>
 
+
+
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      links: [
+        { name: "Portfolio", link: "Portfolio" },
+        { name: "Contact", link: "Contact" }
+      ]
+    };
+  }
+};
 </script>
 
 <style scoped>
-.aboutButton {
-  margin-bottom: 20px;
-  opacity: 80%;
-}
-
 .aboutButton:hover {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  font-family: "Martel", serif;
 }
 
-.divider {
-  width: 20px;
-  height: auto;
-  display: inline-block;
+.aboutButton {
+  opacity: 80%;
+  font-family: "Martel", serif;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 </style>

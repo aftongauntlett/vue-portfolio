@@ -10,17 +10,36 @@
 export default {
   data() {
     return {
-      techStack: ["JavaScript", "HTML", "CSS", "jQuery", "Vue", "React"]
+      techStack: [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "jQuery",
+        "Vue",
+        "React",
+        "Expres",
+        "JSX",
+        "Node",
+        "Bootstrap",
+        "MySQL",
+        "Sequelize",
+        "MongoDB",
+        "Mongoose",
+        "GIT",
+        "API's",
+        "Heroku",
+        "Es6+",
+        "508c",
+        "Amazon Firebase",
+        "Responsive Design",
+        "Jira"
+      ]
     };
   }
 };
 </script>
 
 <style scoped>
-.techStack:hover {
-  transition: all 0.3s ease;
-}
-
 ul {
   list-style: none;
 }
@@ -28,5 +47,6 @@ ul {
 .techStack {
   line-height: 200%;
   color: rgb(0, 0, 0);
+  padding-top: 35px;
 }
 </style>

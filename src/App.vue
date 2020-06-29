@@ -1,6 +1,11 @@
 <template>
-  <div id="app">
+  <div
+    id="app"
+    :style="{'background-image': `url(${imageUrl})`}"
+    class="backgroundImage d-flex flex-wrap flex-column justify-content-between"
+  >
     <Navbar />
+
     <router-view />
     <Footer />
   </div>
@@ -14,6 +19,12 @@ export default {
   components: {
     Navbar,
     Footer
+  },
+
+  computed: {
+    imageUrl() {
+      return require("@/assets/images/desktop2.png");
+    }
   }
 };
 </script>
@@ -25,5 +36,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  min-height: 100vh;
+}
+
+.backgroundImage {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 </style>
