@@ -23,6 +23,7 @@ export default {
 <style scoped>
 >>> .portfolio-card {
   background-color: rgba(255, 255, 255);
+  opacity: 0.8;
   color: black;
   margin: 30px;
 }
