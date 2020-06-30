@@ -85,7 +85,7 @@ export default {
 .title {
   padding-top: 25px;
   font-size: 60px;
-  color: rgba(37, 37, 37, 0.897);
+  color: rgba(241, 240, 240, 0.897);
 }
 
 .portfolio {
