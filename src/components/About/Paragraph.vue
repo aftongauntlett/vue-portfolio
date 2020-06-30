@@ -5,7 +5,7 @@
         I am a technology-minded individual with a passion for Front End Web Development. Inspired by
         design and performance - I am able to build fluid, attractive and responsive websites for any need. I have a multi-disciplinary background
         in research and entrepreneurship, backed with creativity and drive.
-        <br />As a recent graduate from George Washington University’s Full Stack Web Development, I have honed skills in the following:
+        <br />As a recent graduate from George Washington University’s Full Stack Web Development course, I have honed skills in the following:
         <TechStack />
         <Buttons />
       </b-card-text>
