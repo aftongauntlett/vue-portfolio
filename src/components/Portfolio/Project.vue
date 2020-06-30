@@ -49,7 +49,7 @@ export default {
 }
 
 .card {
-  opacity: 85%;
+  opacity: 0.8;
   text-align: center;
   padding: 20px;
   margin: 40px;
@@ -76,7 +76,7 @@ export default {
 }
 
 .pCards {
-  opacity: 85%;
+  opacity: 0.8;
   background-color: rgb(233, 238, 241) !important;
   width: 30rem;
 }
@@ -96,7 +96,7 @@ export default {
 /* animations */
 
 .pCards:hover {
-  opacity: 100%;
+  opacity: 1;
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
 }
@@ -115,7 +115,7 @@ export default {
     opacity: 0;
   }
   to {
-    opacity: 100;
+    opacity: 1;
   }
 }
 </style>

@@ -32,7 +32,7 @@ export default {
 }
 
 .aboutButton {
-  opacity: 80%;
+  opacity: 0.8;
   font-family: "Martel", serif;
   font-size: 20px;
   padding-left: 15px;

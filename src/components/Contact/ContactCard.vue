@@ -83,7 +83,7 @@
 }
 
 .contactButton {
-  opacity: 85%;
+  opacity: 0.8;
   font-family: "Martel", serif;
   font-size: 20px;
   margin: 5px;
@@ -97,7 +97,7 @@
 }
 
 .aboutButton {
-  opacity: 80%;
+  opacity: 0.8;
   font-family: "Martel", serif;
   font-size: 20px;
   padding-left: 15px;
@@ -123,7 +123,7 @@ ul {
     opacity: 0;
   }
   to {
-    opacity: 100;
+    opacity: 1;
   }
 }
 </style>

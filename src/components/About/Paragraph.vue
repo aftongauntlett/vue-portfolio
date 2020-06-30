@@ -36,7 +36,7 @@ export default {
 }
 
 .card {
-  opacity: 85%;
+  opacity: 0.8;
 }
 
 .card-area {
@@ -57,7 +57,7 @@ export default {
     opacity: 0;
   }
   to {
-    opacity: 100;
+    opacity: 1;
   }
 }
 </style>

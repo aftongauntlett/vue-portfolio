@@ -18,7 +18,7 @@ export default {};
   -ms-transform: scale(1.3);
   transform: scale(1.3);
   transition: all 0.3s ease;
-  opacity: 100%;
+  opacity: 1;
 }
 
 .slow {
@@ -34,7 +34,7 @@ export default {};
     opacity: 0;
   }
   to {
-    opacity: 100;
+    opacity: 1;
   }
 }
 </style>

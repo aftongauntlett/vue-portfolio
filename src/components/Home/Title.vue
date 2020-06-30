@@ -44,7 +44,7 @@ export default {};
     opacity: 0;
   }
   to {
-    opacity: 100;
+    opacity: 1;
   }
 }
 
@@ -69,12 +69,12 @@ export default {};
 
   .hCards {
     font-size: 18px !important;
-    opacity: 100%;
+    opacity: 1;
   }
 
   .hireMe {
     font-size: 18px !important;
-    opacity: 100%;
+    opacity: 1;
   }
 }
 </style>
