@@ -66,6 +66,12 @@ npm run serve
 npm run build
 ```
 
+### update
+
+```
+sh deploy.sh
+```
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
