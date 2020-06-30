@@ -93,6 +93,20 @@ export default {
   flex: 1 0 auto;
 }
 
+/* media */
+
+@media only screen and (max-width: 700px) {
+  .pCards {
+    opacity: 1 !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+.slow {
+  animation: slow 0.5s ease forwards;
+}
+
 /* animations */
 
 .pCards:hover {
