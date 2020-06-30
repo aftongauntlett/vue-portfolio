@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio">
-    <p class="title">Completed Projects</p>
+    <p class="slow title">Completed Projects</p>
     <div class="d-flex justify-content-center flex-wrap">
       <Project v-for="project in projects" :key="project.title" :project="project" />
     </div>
@@ -28,7 +28,7 @@ export default {
           description:
             "Created to showcase knowledge with MERN. Evocate is a card matching game to test your memory. This full-stack app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
           deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
-          gitLink: "https://github.com/aftongauntlett/baysil_creations",
+          gitLink: "https://github.com/aftongauntlett/evocate",
           image: "evocate.jpg"
         },
         {
@@ -84,7 +84,11 @@ export default {
 <style scoped>
 .title {
   padding-top: 25px;
-  font-size: 80px;
+  font-size: 60px;
   color: rgba(37, 37, 37, 0.897);
+}
+
+.portfolio {
+  width: 100vw;
 }
 </style>

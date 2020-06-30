@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-button
-      class="aboutButton ml-3"
+      class="aboutButton mx-2 mt-5"
       variant="dark"
       v-for="link in links"
       :key="link.link"
@@ -9,29 +9,29 @@
       link.link}"
     >{{link.name}}</b-button>
 
-    <div class="d-flex justify-content-center">
-      <div class="contactCard">
-        <a href="https://www.linkedin.com/in/afton-gauntlett/">
-          <i class="fa fa-linkedin-square fa-2x pr-3 text-dark"></i>
-        </a>
-      </div>
+    <div class="p-3">
+      <div class="d-flex justify-content-center">
+        <div class="aboutButton">
+          <a href="https://www.linkedin.com/in/afton-gauntlett/" target="_blank">
+            <i class="fa fa-linkedin-square fa-2x pr-3 text-dark"></i>
+          </a>
+        </div>
 
-      <div class="contactCard">
-        <a href="https://github.com/aftongauntlett">
-          <i class="fa fa-github fa-2x pr-3 text-dark"></i>
-        </a>
-      </div>
+        <div class="aboutButton">
+          <a href="https://github.com/aftongauntlett" target="_blank">
+            <i class="fa fa-github fa-2x pr-3 text-dark"></i>
+          </a>
+        </div>
 
-      <div class="contactCard">
-        <a href="mailto: afton.gauntlett@gmail.com">
-          <i class="fa fa-envelope fa-2x text-dark"></i>
-        </a>
+        <div class="aboutButton">
+          <a href="mailto:afton.gauntlett@gmail.com">
+            <i class="fa fa-envelope fa-2x text-dark"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </template>
-
-
 
 <script>
 export default {
@@ -59,5 +59,6 @@ export default {
   font-size: 20px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 20px;
 }
 </style>

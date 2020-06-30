@@ -2,12 +2,12 @@
   <div
     id="app"
     :style="{'background-image': `url(${imageUrl})`}"
-    class="backgroundImage d-flex flex-wrap flex-column justify-content-between"
+    class="backgroundImage d-flex flex-wrap flex-column"
   >
     <Navbar />
 
     <router-view />
-    <Footer />
+    <Footer class="mt-auto" />
   </div>
 </template>
 

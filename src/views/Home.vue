@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
+  <div class="home d-flex flex-wrap flex-column flex-grow-1">
     <Title />
     <Links />
-    <Ad />
+    <Ad class="mt-auto" />
   </div>
 </template>
 
@@ -22,9 +22,9 @@ export default {
 
 <style scoped>
 >>> .portfolio-card {
-  background-color: rgba(185, 182, 189, 0.801);
-  border-radius: 12px;
+  background-color: rgba(255, 255, 255);
+  opacity: 80%;
   color: black;
-  margin: 20px;
+  margin: 30px;
 }
 </style>

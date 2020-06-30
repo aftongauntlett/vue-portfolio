@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-button
-      class="aboutButton ml-3"
+      class="aboutButton mx-2 mt-5"
       variant="light"
       v-for="link in links"
       :key="link.link"
@@ -37,5 +37,6 @@ export default {
   font-size: 20px;
   padding-left: 15px;
   padding-right: 15px;
+  padding: 15px;
 }
 </style>
