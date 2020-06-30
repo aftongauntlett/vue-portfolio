@@ -47,34 +47,4 @@ export default {};
     opacity: 1;
   }
 }
-
-/* Media */
-@media only screen and (max-width: 600px) {
-  .titleHome {
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .homeName {
-    font-size: 50px;
-  }
-
-  .homeTitle {
-    font-size: 30px;
-  }
-
-  #homeCards {
-    padding-top: unset;
-  }
-
-  .hCards {
-    font-size: 18px !important;
-    opacity: 1;
-  }
-
-  .hireMe {
-    font-size: 18px !important;
-    opacity: 1;
-  }
-}
 </style>
