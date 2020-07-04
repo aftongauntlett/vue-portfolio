@@ -30,7 +30,7 @@ export default {
         "Heroku",
         "Es6+",
         "508c",
-        "Amazon Firebase",
+        "Google Firebase",
         "Responsive Design",
         "Jira"
       ]

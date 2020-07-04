@@ -26,7 +26,7 @@ export default {
         {
           title: "Evocate",
           description:
-            "Created to showcase knowledge with MERN. Evocate is a card matching game to test your memory. This full-stack app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
+            "Created to showcase knowledge in full-stack development. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
           deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
           gitLink: "https://github.com/aftongauntlett/evocate",
           image: "evocate.jpg"
