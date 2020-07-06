@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "host": "0.0.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
