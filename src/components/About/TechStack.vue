@@ -32,7 +32,7 @@ export default {
         "508c",
         "Google Firebase",
         "Responsive Design",
-        "Jira"
+        "UI/UX"
       ]
     };
   }
