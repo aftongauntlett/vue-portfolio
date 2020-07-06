@@ -88,7 +88,10 @@ export default {
 <style scoped>
 .title {
   padding-top: 25px;
-  font-size: 60px;
+  padding-bottom: 10px;
+  font-size: 35px;
   color: rgba(241, 240, 240, 0.897);
+  border-bottom: 2px solid rgba(241, 240, 240, 0.897);
+  font-family: "Martel", serif;
 }
 </style>

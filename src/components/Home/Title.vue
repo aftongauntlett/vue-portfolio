@@ -36,7 +36,7 @@ export default {};
 
 /* Animations */
 .slow {
-  animation: slow 0.5s ease forwards;
+  animation: slow 0.5s ease-in;
 }
 
 @keyframes slow {

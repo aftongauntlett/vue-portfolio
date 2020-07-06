@@ -1,7 +1,12 @@
 <template>
   <div class="slow contact d-flex justify-content-center">
     <div>
-      <b-card title="Contact Me" tag="article" style="max-width: 30rem;" class="contactCard">
+      <b-card
+        title="Contact Me"
+        tag="article"
+        style="max-width: 30rem;"
+        class="contactCard card"
+      >
         <b-card-img class="image" :src="require('./me2.jpg')" />
         <ul class="list-group list-group-flush">
           <li class="contactCard contactButton">
@@ -9,11 +14,19 @@
               <i class="fa fa-github fa-2x text-dark"></i>
             </a>
             <br />
-            <a href="https://github.com/aftongauntlett" target="_blank" class="card-link">GitHub</a>
+            <a
+              href="https://github.com/aftongauntlett"
+              target="_blank"
+              class="card-link"
+              >GitHub</a
+            >
           </li>
 
           <li class="contactCard contactButton">
-            <a href="https://www.linkedin.com/in/afton-gauntlett/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/afton-gauntlett/"
+              target="_blank"
+            >
               <i class="fa fa-linkedin-square fa-2x text-dark"></i>
             </a>
             <br />
@@ -21,7 +34,8 @@
               href="https://www.linkedin.com/in/afton-gauntlett/"
               target="_blank"
               class="card-link"
-            >LinkedIn</a>
+              >LinkedIn</a
+            >
           </li>
 
           <li class="contactCard contactButton">
@@ -29,7 +43,9 @@
               <i class="fa fa-envelope fa-2x text-dark"></i>
             </a>
             <br />
-            <a href="mailto:afton.gauntlett@gmail.com" class="card-link">Email Me</a>
+            <a href="mailto:afton.gauntlett@gmail.com" class="card-link"
+              >Email Me</a
+            >
           </li>
 
           <li class="contactCard contactButton">
@@ -49,9 +65,9 @@
           v-for="link in links"
           s
           :key="link.link"
-          :to="{name:
-      link.link}"
-        >{{link.name}}</b-button>
+          :to="{ name: link.link }"
+          >{{ link.name }}</b-button
+        >
       </b-card>
     </div>
   </div>
@@ -63,14 +79,13 @@
   padding: 20px;
   margin: 40px;
   font-family: "Martel", serif;
-  background-color: rgb(226, 223, 223);
 }
 
 .card-title {
-  border-bottom: 2px solid rgba(210, 204, 218, 0.514);
+  border-bottom: 2px solid rgba(109, 108, 110, 0.514);
   font-family: "Martel", serif;
-  font-size: 25px;
-  color: rgb(46, 40, 40);
+  font-size: 35px;
+  color: #2c3e50;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -134,9 +149,9 @@ export default {
     return {
       links: [
         { name: "Portfolio", link: "Portfolio" },
-        { name: "About Me", link: "About" }
-      ]
+        { name: "About Me", link: "About" },
+      ],
     };
-  }
+  },
 };
 </script>

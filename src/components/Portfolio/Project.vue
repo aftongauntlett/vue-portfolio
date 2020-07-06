@@ -1,6 +1,6 @@
 <template>
   <b-card
-    class="p-3 m-2 myCard"
+    class="p-3 m-2 myCard slow"
     :img-src="imageLocation"
     :title="project.title"
   >

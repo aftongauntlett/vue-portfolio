@@ -31,15 +31,11 @@ export default {
 
 <style scoped>
 .card-title {
-  border-bottom: 2px solid rgba(210, 204, 218, 0.514);
+  border-bottom: 2px solid rgba(109, 108, 110, 0.514);
   padding-bottom: 20px;
   font-family: "Martel", serif;
   font-size: 35px;
   color: #2c3e50;
-}
-
-.card {
-  opacity: 0.8;
 }
 
 .card-area {

@@ -45,4 +45,8 @@ export default {
   background-size: cover;
   width: 100vw;
 }
+
+.card {
+  background-color: rgba(223, 228, 241, 0.918);
+}
 </style>
