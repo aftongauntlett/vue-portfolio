@@ -1,14 +1,20 @@
 <template>
   <div class="d-flex justify-content-center slow">
-    <b-button :to="{ name: 'Contact' }" class="hCards portfolio-card p-4">
+    <b-button :to="{ name: 'Hire' }" class="hCards portfolio-card p-4">
       <div>Would you like me to design your website or portfolio?</div>
-      <div>Contact me for pricing!</div>
+      <div>Click here!</div>
     </b-button>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      links: [{ name: "Hire Me", link: "Hire" }]
+    };
+  }
+};
 </script>
 
 <style scoped>

@@ -11,28 +11,30 @@ export default {
   data() {
     return {
       techStack: [
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "jQuery",
         "Vue",
         "React",
+        "JavaScript",
+        "jQuery",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "UI/UX Design",
+        "Adobe XD",
+        "Wireframes",
+        "Responsive Design",
+        "508c",
+        "Google Analytics",
+        "Google Firebase",
         "Express",
         "JSX",
-        "Node",
-        "Bootstrap",
         "MySQL",
         "Sequelize",
         "MongoDB",
         "Mongoose",
+        "Node",
         "GIT",
         "API's",
-        "Heroku",
-        "Es6+",
-        "508c",
-        "Google Firebase",
-        "Responsive Design",
-        "UI/UX"
+        "Es6+"
       ]
     };
   }
@@ -40,10 +42,6 @@ export default {
 </script>
 
 <style scoped>
-ul {
-  list-style: none;
-}
-
 .techStack {
   line-height: 200%;
   color: rgb(46, 40, 40);

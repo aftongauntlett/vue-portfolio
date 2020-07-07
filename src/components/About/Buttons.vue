@@ -39,7 +39,8 @@ export default {
     return {
       links: [
         { name: "Portfolio", link: "Portfolio" },
-        { name: "Contact", link: "Contact" }
+        { name: "Contact", link: "Contact" },
+        { name: "Hire", link: "Hire" }
       ]
     };
   }
