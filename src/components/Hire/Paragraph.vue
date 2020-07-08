@@ -1,6 +1,6 @@
 <template>
   <div class="slow card-area container d-flex justify-content-center">
-    <b-card title="Why choose me?" tag="article" class="aboutTitle m-md-5 mt-3 p-3">
+    <b-card title="Why Choose Me?" tag="article" class="aboutTitle m-md-5 mt-3 p-3">
       <b-card-text>
         <Offers />
         <Buttons />

@@ -1,5 +1,5 @@
 <template>
-  <div class="slow card-area container d-flex justify-content-center">
+  <div class="slow card-area d-flex justify-content-center">
     <b-card title="About Me" tag="article" class="aboutTitle m-md-5 mt-3 p-3">
       <b-card-text>
         I am a technology-minded individual with a passion for Front End Web

@@ -1,13 +1,13 @@
 <template>
-  <div
-    id="app"
-    :style="{ 'background-image': `url(${imageUrl})` }"
-    class="backgroundImage d-flex flex-wrap flex-column"
-  >
+  <div id="app" class="w-100 d-flex flex-wrap flex-column">
+    <div
+      class="backgroundImage"
+      :style="{ 'background-image': `url(${imageUrl})` }"
+    ></div>
     <Navbar />
-
-    <router-view />
+    <router-view class="container" />
     <Footer class="mt-auto" />
+    <notifications group="main" position="center bottom" />
   </div>
 </template>
 
@@ -32,18 +32,25 @@ export default {
 <style>
 #app {
   font-family: "Martel", serif;
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 .backgroundImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  width: 100vw;
+  z-index: -1;
 }
 
 .card {

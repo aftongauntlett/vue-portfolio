@@ -94,4 +94,17 @@ export default {
   border-bottom: 2px solid rgba(241, 240, 240, 0.897);
   font-family: "Martel", serif;
 }
+
+.slow {
+  animation: slow 0.5s ease-in-out;
+}
+
+@keyframes slow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 </style>

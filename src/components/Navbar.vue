@@ -9,6 +9,7 @@
         <b-nav-item :to="{name: 'About'}">About Me</b-nav-item>
         <b-nav-item :to="{name: 'Portfolio'}">Portfolio</b-nav-item>
         <b-nav-item :to="{name: 'Contact'}">Contact</b-nav-item>
+        <b-nav-item :to="{name: 'Hire'}">Hire Me</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

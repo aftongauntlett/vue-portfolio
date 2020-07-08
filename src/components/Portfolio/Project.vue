@@ -8,14 +8,14 @@
       {{ project.description }}
       <div class="mt-3">
         <b-button
-          class="pButton ml-3"
+          class="pButton ml-3 my-2"
           variant="dark"
           :href="project.deployedLink"
           target="_blank"
           >Deployed</b-button
         >
         <b-button
-          class="pButton ml-3"
+          class="pButton ml-3 my-2"
           variant="dark"
           :href="project.gitLink"
           target="_blank"

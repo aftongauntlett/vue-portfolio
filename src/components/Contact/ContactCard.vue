@@ -2,7 +2,13 @@
   <div class="slow contact d-flex justify-content-center">
     <div>
       <b-card title="Contact Me" tag="article" style="max-width: 30rem;" class="contactCard card">
-        <b-card-img class="image" :src="require('./me2.jpg')" />
+        <div class="dropDown">
+          <b-card-img class="image" :src="require('./me2.jpg')" />
+          <div class="overlay">
+            <!-- <div class="text">Hello!</div> -->
+          </div>
+        </div>
+
         <ul class="list-group list-group-flush">
           <li class="contactCard contactButton">
             <a href="https://github.com/aftongauntlett" target="_blank">
@@ -108,6 +114,40 @@
   margin-top: 20px;
 }
 
+/* animation */
+
+/* .text {
+  color: white;
+  font-family: "Martel", serif;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #8a94b49f;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.dropDown:hover .overlay {
+  bottom: 0;
+  height: 100%;
+} */
+
+/* end */
+
 ul {
   list-style: none;
 }
@@ -137,7 +177,8 @@ export default {
     return {
       links: [
         { name: "Portfolio", link: "Portfolio" },
-        { name: "About Me", link: "About" }
+        { name: "About Me", link: "About" },
+        { name: "Hire", link: "Hire" }
       ]
     };
   }

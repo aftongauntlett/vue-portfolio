@@ -9,7 +9,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .title {
   font-size: 45px;
 }
@@ -36,7 +36,7 @@ export default {};
 
 /* Animations */
 .slow {
-  animation: slow 0.5s ease-in;
+  animation: slow 0.5s ease-in-out;
 }
 
 @keyframes slow {
