@@ -1,7 +1,12 @@
 <template>
   <div class="slow contact d-flex justify-content-center">
     <div>
-      <b-card title="Contact Me" tag="article" style="max-width: 30rem;" class="contactCard card">
+      <b-card
+        title="Contact Me"
+        tag="article"
+        style="max-width: 30rem;"
+        class="contactCard card"
+      >
         <div class="dropDown">
           <b-card-img class="image" :src="require('./me2.jpg')" />
           <div class="overlay">
@@ -15,11 +20,19 @@
               <i class="fa fa-github fa-2x text-dark"></i>
             </a>
             <br />
-            <a href="https://github.com/aftongauntlett" target="_blank" class="card-link">GitHub</a>
+            <a
+              href="https://github.com/aftongauntlett"
+              target="_blank"
+              class="card-link"
+              >GitHub</a
+            >
           </li>
 
           <li class="contactCard contactButton">
-            <a href="https://www.linkedin.com/in/afton-gauntlett/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/afton-gauntlett/"
+              target="_blank"
+            >
               <i class="fa fa-linkedin-square fa-2x text-dark"></i>
             </a>
             <br />
@@ -27,7 +40,8 @@
               href="https://www.linkedin.com/in/afton-gauntlett/"
               target="_blank"
               class="card-link"
-            >LinkedIn</a>
+              >LinkedIn</a
+            >
           </li>
 
           <li class="contactCard contactButton">
@@ -35,7 +49,9 @@
               <i class="fa fa-envelope fa-2x text-dark"></i>
             </a>
             <br />
-            <a href="mailto:afton.gauntlett@gmail.com" class="card-link">Email Me</a>
+            <a href="mailto:afton.gauntlett@gmail.com" class="card-link"
+              >Email Me</a
+            >
           </li>
 
           <li class="contactCard contactButton">
@@ -57,7 +73,8 @@
           s
           :key="link.link"
           :to="{ name: link.link }"
-        >{{ link.name }}</b-button>
+          >{{ link.name }}</b-button
+        >
       </b-card>
     </div>
   </div>
@@ -177,10 +194,10 @@ export default {
     return {
       links: [
         { name: "Portfolio", link: "Portfolio" },
-        { name: "About Me", link: "About" },
-        { name: "Hire", link: "Hire" }
-      ]
+        { name: "About", link: "About" },
+        { name: "Hire", link: "Hire" },
+      ],
     };
-  }
+  },
 };
 </script>

@@ -15,8 +15,8 @@ export default {
   data() {
     return {
       links: [
-        { name: "About Me", link: "About" },
         { name: "Portfolio", link: "Portfolio" },
+        { name: "About", link: "About" },
         { name: "Contact", link: "Contact" },
         { name: "Hire", link: "Hire" },
       ],
