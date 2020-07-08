@@ -23,7 +23,7 @@ export default {
         {
           title: "Design",
           description:
-            "I will design your website to be attractive, easy to navigate and 503 compliant, making sure it is accessible for all users. ",
+            "I will design your website to be attractive, easy to navigate and 508 compliant, making sure it is accessible for all users. ",
         },
         {
           title: "Analytics",
