@@ -1,5 +1,5 @@
 <template>
-  <div class="home d-flex flex-wrap flex-column flex-grow-1">
+  <div class="home">
     <Title />
     <Links />
     <Ad class="mt-auto" />
@@ -7,16 +7,15 @@
 </template>
 
 <script>
-import Ad from "../components/Home/Ad";
 import Title from "../components/Home/Title";
 import Links from "../components/Home/Links";
+
 export default {
   name: "Home",
   components: {
-    Ad,
     Links,
-    Title
-  }
+    Title,
+  },
 };
 </script>
 

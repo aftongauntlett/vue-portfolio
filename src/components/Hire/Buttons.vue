@@ -5,9 +5,9 @@
       variant="dark"
       v-for="link in links"
       :key="link.link"
-      :to="{name:
-      link.link}"
-    >{{link.name}}</b-button>
+      :to="{ name: link.link }"
+      >{{ link.name }}</b-button
+    >
   </div>
 </template>
 
@@ -18,10 +18,10 @@ export default {
       links: [
         { name: "About Me", link: "About" },
         { name: "Contact", link: "Contact" },
-        { name: "Portfolio", link: "Portfolio" }
-      ]
+        { name: "Portfolio", link: "Portfolio" },
+      ],
     };
-  }
+  },
 };
 </script>
 

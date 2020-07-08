@@ -18,6 +18,7 @@ export default {
         { name: "About Me", link: "About" },
         { name: "Portfolio", link: "Portfolio" },
         { name: "Contact", link: "Contact" },
+        { name: "Hire", link: "Hire" },
       ],
     };
   },

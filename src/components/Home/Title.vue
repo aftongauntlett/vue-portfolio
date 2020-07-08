@@ -20,7 +20,7 @@ export default {};
 }
 
 .homeName {
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Martel", serif;
   text-align: center;
   color: rgba(230, 223, 235, 0.925);
