@@ -1,9 +1,5 @@
 <template>
-  <b-card
-    class="p-3 m-2 myCard slow"
-    :img-src="imageLocation"
-    :title="project.title"
-  >
+  <b-card class="p-3 m-2 myCard slow" :img-src="imageLocation" :title="project.title">
     <b-card-text>
       {{ project.description }}
       <div class="mt-3">
@@ -12,15 +8,13 @@
           variant="dark"
           :href="project.deployedLink"
           target="_blank"
-          >Deployed</b-button
-        >
+        >Deployed</b-button>
         <b-button
           class="pButton ml-3 my-2"
           variant="dark"
           :href="project.gitLink"
           target="_blank"
-          >Github</b-button
-        >
+        >Github</b-button>
       </div>
     </b-card-text>
   </b-card>
@@ -30,13 +24,13 @@
 export default {
   name: "Project",
   props: {
-    project: {},
+    project: {}
   },
   computed: {
     imageLocation() {
       return require("../../assets/images/projects/" + this.project.image);
-    },
-  },
+    }
+  }
 };
 </script>
 
