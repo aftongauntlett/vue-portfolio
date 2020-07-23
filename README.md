@@ -20,7 +20,7 @@ Personal portfolio built using the following technologies:
 
 ## Screenshot:
 
-![Front Page of portfolio](https://i.imgur.com/Ah4VGZc.jpg)
+![Front Page of portfolio](https://i.imgur.com/SlIxC65.jpg)
 
 ## License
 

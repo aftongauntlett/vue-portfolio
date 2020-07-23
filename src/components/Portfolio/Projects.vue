@@ -32,9 +32,17 @@ export default {
           image: "magstock.jpg"
         },
         {
+          title: "Follow|down",
+          description:
+                  "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.js and Bootstrap-vue.",
+          deployedLink: "https://followdown.com/",
+          gitLink: "https://github.com/aftongauntlett/followdown",
+          image: "followdown.jpg"
+        },
+        {
           title: "Evocate",
           description:
-            "Created to showcase knowledge in full-stack development. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
+            "Created to showcase full-stack knowledge. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
           deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
           gitLink: "https://github.com/aftongauntlett/evocate",
           image: "evocate.jpg"
@@ -54,14 +62,6 @@ export default {
           deployedLink: "https://catster.aftongauntlett.com/#/",
           gitLink: "https://github.com/aftongauntlett/Catster",
           image: "catster.jpg"
-        },
-        {
-          title: "Weather Dashboard",
-          description:
-            "Created to showcase knowledge with APIs. Weather dashboard that features dynamically updated HTML and CSS, this app retrieves data from a third party API.",
-          deployedLink: "https://aftongauntlett.github.io/weather-dashboard/",
-          gitLink: "https://github.com/aftongauntlett/weather-dashboard",
-          image: "weather.jpg"
         },
         {
           title: "Star Trek Quiz",
