@@ -16,14 +16,6 @@ export default {
     return {
       projects: [
         {
-          title: "East Central Countertops",
-          description:
-            "Designed and built for East Central Countertops using Vue and hosted with Firebase.",
-          deployedLink: "https://east-central-countertops.web.app/#/",
-          gitLink: "https://github.com/aftongauntlett/east-central-countertops",
-          image: "eastcentral.jpg"
-        },
-        {
           title: "MAGStock 2020",
           description:
             "Designed, deployed and maintained for MAGFest, Inc. A local non-profit gaming festival. I am an active contributer on other developmental projects for MAGFest, Inc.",
@@ -32,12 +24,28 @@ export default {
           image: "magstock.jpg"
         },
         {
+          title: "Catster",
+          description:
+                  "Created to showcase knowledge with React using API calls and React Bootstrap. Application's UI is separated into components that are able to manage component state and respond to events.",
+          deployedLink: "https://catster.aftongauntlett.com/#/",
+          gitLink: "https://github.com/aftongauntlett/Catster",
+          image: "catster.jpg"
+        },
+        {
           title: "Follow|down",
           description:
                   "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.js and Bootstrap-vue.",
           deployedLink: "https://followdown.com/",
           gitLink: "https://github.com/aftongauntlett/followdown",
           image: "followdown.jpg"
+        },
+        {
+          title: "East Central Countertops",
+          description:
+                  "Designed and built for East Central Countertops using Vue and hosted with Firebase.",
+          deployedLink: "https://east-central-countertops.web.app/#/",
+          gitLink: "https://github.com/aftongauntlett/east-central-countertops",
+          image: "eastcentral.jpg"
         },
         {
           title: "Evocate",
@@ -54,14 +62,6 @@ export default {
           deployedLink: "https://questival.herokuapp.com/",
           gitLink: "https://github.com/aftongauntlett/Questival",
           image: "questival.jpg"
-        },
-        {
-          title: "Catster",
-          description:
-            "Created to showcase knowledge with React using API calls and React Bootstrap. Application's UI is separated into components that are able to manage component state and respond to events.",
-          deployedLink: "https://catster.aftongauntlett.com/#/",
-          gitLink: "https://github.com/aftongauntlett/Catster",
-          image: "catster.jpg"
         },
         {
           title: "Star Trek Quiz",
