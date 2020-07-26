@@ -50,16 +50,6 @@ export default {
           description:
             "I will host your website using Cloud Services, for upmost reliability.",
         },
-        // {
-        //   title: "Pricing",
-        //   description:
-        //     "You will get exceptional pricing while I build my portfolio. This is a great opportunity for personalized web services at such affordable rates."
-        // },
-        {
-          title: "Supporting a small business",
-          description:
-            "I started this business to help out other small businesses and entrepreneurs. Web Developers are very expensive and building your own webpage can be daunting for some folks. I want contractors, realtors, mom and pop stores - whoever you may be, to have a strong presence in the virtual world. I want you to be able to do this without the staggering rate big companies can afford to pay developers.  I am here to help you get a top of the line website at a great price, while saving you from the hassle of learning new technologies.",
-        },
       ],
     };
   },
