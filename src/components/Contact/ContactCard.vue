@@ -57,7 +57,7 @@
           <li class="contactCard contactButton">
             <a
               class="card-link"
-              href="https://docs.google.com/document/d/1O-rDsK4FOX6Z6lNFCyEoDHJJsA_Pt4oxsKerejP3Wj4/edit?usp=sharing"
+              href="https://docs.google.com/document/d/14VzlSZ4m5wphZyg0TUCJDvdQAe6lHn8Nb5GLKpa_MQA/edit?usp=sharing"
               target="_blank"
             >
               <i class="fa fa-file fa-2x text-dark"></i>
