@@ -13,9 +13,10 @@ export default {
       techStack: [
         "Vue",
         "React",
-        "JSX",
+        "Python",
         "JavaScript",
         "jQuery",
+        "Jest",
         "HTML",
         "CSS",
         "Bootstrap",
@@ -34,7 +35,8 @@ export default {
         "Mongoose",
         "Node",
         "GIT",
-        "Es6+"
+        "JSX",
+        "Es6+",
       ]
     };
   }
