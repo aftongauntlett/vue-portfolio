@@ -2,13 +2,12 @@
   <div class="slow card-area d-flex justify-content-center">
     <b-card title="About Me" tag="article" class="aboutTitle m-md-5 mt-3 p-3">
       <b-card-text>
-        I am a technology-minded individual with a passion for Front End Web
+        <p>I am a technology-minded individual with a passion for Front End Web
         Development. Inspired by design and performance - I am able to build
-        fluid, attractive and responsive websites for any need. I have a
+        fluid, attractive and responsive websites and apps for any need. I have a
         multi-disciplinary background in research and entrepreneurship, backed
-        with creativity and drive.
-        <br />As a recent graduate from George Washington University’s Full
-        Stack Web Development course, I have honed skills in the following:
+          with creativity and drive.</p>
+        <p class="font-weight-bold">Tech Stack:</p>
         <TechStack />
         <Buttons />
       </b-card-text>

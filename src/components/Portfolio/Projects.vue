@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p class="slow title">Completed Projects</p>
+    <p class="slow title">Projects</p>
     <div class="d-flex justify-content-center flex-wrap">
       <Project v-for="project in projects" :key="project.title" :project="project" />
     </div>

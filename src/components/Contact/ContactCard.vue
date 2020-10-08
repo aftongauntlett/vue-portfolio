@@ -9,9 +9,6 @@
       >
         <div class="dropDown">
           <b-card-img class="image" :src="require('./me2.jpg')" />
-          <div class="overlay">
-            <!-- <div class="text">Hello!</div> -->
-          </div>
         </div>
 
         <ul class="list-group list-group-flush">
