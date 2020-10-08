@@ -1,14 +1,24 @@
 <template>
+  <div>
   <div class="container">
     <p class="slow title">Projects</p>
     <div class="d-flex justify-content-center flex-wrap">
       <Project v-for="project in projects" :key="project.title" :project="project" />
     </div>
   </div>
+
+  <div class="container">
+    <p class="slow title">Wireframes</p>
+    <div class="d-flex justify-content-center flex-wrap">
+      <Wireframe v-for="wireframe in wireframes" :key="wireframe.title" :wireframe="wireframe" />
+    </div>
+  </div>
+  </div>
 </template>
 
 <script>
 import Project from "./Project";
+import Wireframe from "./Wireframe";
 
 export default {
   name: "Projects",
@@ -32,20 +42,20 @@ export default {
           image: "catster.jpg"
         },
         {
-          title: "Follow|down",
-          description:
-                  "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.js and Bootstrap-vue.",
-          deployedLink: "https://followdown.com/",
-          gitLink: "https://github.com/aftongauntlett/followdown",
-          image: "followdown.jpg"
-        },
-        {
           title: "East Central Countertops",
           description:
                   "Designed and built for East Central Countertops using Vue and hosted with Firebase.",
           deployedLink: "https://east-central-countertops.web.app/#/",
           gitLink: "https://github.com/aftongauntlett/east-central-countertops",
           image: "eastcentral.jpg"
+        },
+        {
+          title: "Follow|down",
+          description:
+                  "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.js and Bootstrap-vue.",
+          deployedLink: "https://followdown.com/",
+          gitLink: "https://github.com/aftongauntlett/followdown",
+          image: "followdown.jpg"
         },
         {
           title: "Evocate",
@@ -63,19 +73,38 @@ export default {
           gitLink: "https://github.com/aftongauntlett/Questival",
           image: "questival.jpg"
         },
+      ],
+      wireframes: [
         {
-          title: "Star Trek Quiz",
+          title: "MAGFest App",
           description:
-            "Created to showcase knowledge with HTML, CSS and JS. Star Trek quiz featuring dynamically updated HTML and CSS powered by JavaScript.",
-          deployedLink: "https://aftongauntlett.github.io/star-trek-quiz/",
-          gitLink: "https://github.com/aftongauntlett/star-trek-quiz",
-          image: "startrek.jpg"
-        }
+                  "Designed, deployed and maintained for MAGFest, Inc. A local non-profit gaming festival. Designed with Adobe XD, Built using React Native and hosted through Firebase.",
+          deployedLink: "https://magstock.org/",
+          gitLink: "https://xd.adobe.com/view/d9b2c7ca-4481-4c32-a534-47b7c7a3cbb1-8ce1/?fullscreen",
+          image: "magfestapp.jpg"
+        },
+        {
+          title: "Discouter App",
+          description:
+                  "Designed for Discouter, an Australian based discount app for local shops and restaurants. Designed with Adobe XD.",
+          deployedLink: "N/A",
+          gitLink: "https://xd.adobe.com/view/36120946-2313-4e6e-90aa-61ff00812172-6341/?fullscreen",
+          image: "discouter.jpg"
+        },
+        {
+          title: "Follow|Down",
+          description:
+                  "Designed using Adobe XD, built with Vue and hosted through Firebase.",
+          deployedLink: "https://catster.aftongauntlett.com/#/",
+          gitLink: "https://github.com/aftongauntlett/Catster",
+          image: "catster.jpg"
+        },
       ]
     };
   },
 
   components: {
+    Wireframe,
     Project
   }
 };
