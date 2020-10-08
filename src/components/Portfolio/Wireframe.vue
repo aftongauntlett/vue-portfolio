@@ -3,18 +3,18 @@
         <b-card-text>
             {{ wireframe.description }}
             <div class="mt-3">
-                <b-button
-                        class="pButton ml-3 my-2"
-                        variant="dark"
-                        :href="wireframe.deployedLink"
-                        target="_blank"
-                >GitHub</b-button>
+<!--                <b-button-->
+<!--                        class="pButton ml-3 my-2"-->
+<!--                        variant="dark"-->
+<!--                        :href="wireframe.deployedLink"-->
+<!--                        target="_blank"-->
+<!--                >GitHub</b-button>-->
                 <b-button
                         class="pButton ml-3 my-2"
                         variant="dark"
                         :href="wireframe.gitLink"
                         target="_blank"
-                >Wireframe</b-button>
+                >View Wireframe</b-button>
             </div>
         </b-card-text>
     </b-card>

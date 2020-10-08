@@ -79,7 +79,6 @@ export default {
           title: "MAGFest App",
           description:
                   "Designed, deployed and maintained for MAGFest, Inc. A local non-profit gaming festival. Designed with Adobe XD, Built using React Native and hosted through Firebase.",
-          deployedLink: "https://magstock.org/",
           gitLink: "https://xd.adobe.com/view/d9b2c7ca-4481-4c32-a534-47b7c7a3cbb1-8ce1/?fullscreen",
           image: "magfestapp.jpg"
         },
@@ -87,7 +86,6 @@ export default {
           title: "Discouter App",
           description:
                   "Designed for Discouter, an Australian based discount app for local shops and restaurants. Designed with Adobe XD.",
-          deployedLink: "N/A",
           gitLink: "https://xd.adobe.com/view/36120946-2313-4e6e-90aa-61ff00812172-6341/?fullscreen",
           image: "discouter.jpg"
         },
@@ -95,9 +93,8 @@ export default {
           title: "Follow|Down",
           description:
                   "Designed using Adobe XD, built with Vue and hosted through Firebase.",
-          deployedLink: "https://catster.aftongauntlett.com/#/",
-          gitLink: "https://github.com/aftongauntlett/Catster",
-          image: "catster.jpg"
+          gitLink: "https://xd.adobe.com/view/88b629f5-e890-4c06-996b-cc6dd18baff1-dde5/?fullscreen",
+          image: "followdown.jpg"
         },
       ]
     };
