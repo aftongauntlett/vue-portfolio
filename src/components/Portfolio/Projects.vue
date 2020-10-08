@@ -28,33 +28,33 @@ export default {
         {
           title: "MAGStock 2020",
           description:
-            "Designed, deployed and maintained for MAGFest, Inc. A local non-profit gaming festival. I am an active contributer on other developmental projects for MAGFest, Inc.",
+            "Designed, deployed and maintained for MAGFest, Inc. A local non-profit gaming festival. Featuring HTML, CSS, Bootstrap, JavaScript and utilizes FTP deploy on commit to master from Github.",
           deployedLink: "https://magstock.org/",
           gitLink: "https://github.com/aftongauntlett/MAGStock2020",
           image: "magstock.jpg"
         },
         {
-          title: "Catster",
+          title: "MAGFest Mobile App",
           description:
-                  "Created to showcase knowledge with React using API calls and React Bootstrap. Application's UI is separated into components that are able to manage component state and respond to events.",
-          deployedLink: "https://catster.aftongauntlett.com/#/",
-          gitLink: "https://github.com/aftongauntlett/Catster",
-          image: "catster.jpg"
+                  "Designed using Adobe XD, built with React Native and using Firebase as backend. This app is a personal project using MAGFest's API's to streamline their volunteer/staff sign ups during event. This also allows attendees to stay updated on MAGFest's activities throughout the year. The API allows staff to sign up for shifts, check into shifts and remove shifts.",
+          deployedLink: "",
+          gitLink: "",
+          image: "magfestapp.jpg"
         },
         {
           title: "East Central Countertops",
           description:
-                  "Designed and built for East Central Countertops using Vue and hosted with Firebase.",
+                  "Designed and built for East Central Countertops, a contractor company located in Mora, Minnesota. Built using Vue and hosted with Firebase.",
           deployedLink: "https://east-central-countertops.web.app/#/",
           gitLink: "https://github.com/aftongauntlett/east-central-countertops",
           image: "eastcentral.jpg"
         },
         {
-          title: "Follow|down",
+          title: "Touch Therapeutic Massage",
           description:
-                  "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.js and Bootstrap-vue.",
-          deployedLink: "https://followdown.com/",
-          gitLink: "https://github.com/aftongauntlett/followdown",
+                  "Designed and built for a local Massage Therapist. Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.",
+          deployedLink: "https://touchtherapeutic.com",
+          gitLink: "https://github.com/aftongauntlett/touchtherapeutic",
           image: "followdown2.jpg"
         },
         {
@@ -73,21 +73,29 @@ export default {
           gitLink: "https://github.com/aftongauntlett/Questival",
           image: "questival.jpg"
         },
+        {
+          title: "Follow|down",
+          description:
+                  "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue and Bootstrap-vue.",
+          deployedLink: "https://followdown.com/",
+          gitLink: "https://github.com/aftongauntlett/followdown",
+          image: "followdown2.jpg"
+        },
       ],
       wireframes: [
         {
           title: "MAGFest App",
           description:
-                  "Designed, deployed and maintained for MAGFest, Inc. A local non-profit gaming festival. Designed with Adobe XD, Built using React Native and hosted through Firebase.",
+                  "Designed with Adobe XD, Built using React Native and hosted through Firebase.",
           gitLink: "https://xd.adobe.com/view/d9b2c7ca-4481-4c32-a534-47b7c7a3cbb1-8ce1/?fullscreen",
           image: "magfestapp.jpg"
         },
         {
           title: "Follow|Down",
           description:
-                  "Designed using Adobe XD, built with Vue and hosted through Firebase.",
+                  "Designed using Adobe XD, built with Vue and hosted through Firebase. This was a personal project for learning purposes.",
           gitLink: "https://xd.adobe.com/view/88b629f5-e890-4c06-996b-cc6dd18baff1-dde5/?fullscreen",
-          image: "followdown.jpg"
+          image: "followdown3.jpg"
         },
         {
           title: "Discouter App",
@@ -96,6 +104,15 @@ export default {
           gitLink: "https://xd.adobe.com/view/36120946-2313-4e6e-90aa-61ff00812172-6341/?fullscreen",
           image: "discouter.jpg"
         },
+        {
+          title: "Discouter App",
+          description:
+                  "Designed for Touch Therapeutic, a local massage therapist. Designed with Adobe XD.",
+          gitLink: "https://xd.adobe.com/view/8fb85d8f-7363-498a-901e-1b2ffbd6e616-daeb/?fullscreen\n",
+          image: "touch.jpg"
+        },
+
+
       ]
     };
   },
