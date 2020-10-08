@@ -55,7 +55,7 @@ export default {
                   "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.js and Bootstrap-vue.",
           deployedLink: "https://followdown.com/",
           gitLink: "https://github.com/aftongauntlett/followdown",
-          image: "followdown.jpg"
+          image: "followdown2.jpg"
         },
         {
           title: "Evocate",
@@ -83,18 +83,18 @@ export default {
           image: "magfestapp.jpg"
         },
         {
-          title: "Discouter App",
-          description:
-                  "Designed for Discouter, an Australian based discount app for local shops and restaurants. Designed with Adobe XD.",
-          gitLink: "https://xd.adobe.com/view/36120946-2313-4e6e-90aa-61ff00812172-6341/?fullscreen",
-          image: "discouter.jpg"
-        },
-        {
           title: "Follow|Down",
           description:
                   "Designed using Adobe XD, built with Vue and hosted through Firebase.",
           gitLink: "https://xd.adobe.com/view/88b629f5-e890-4c06-996b-cc6dd18baff1-dde5/?fullscreen",
           image: "followdown.jpg"
+        },
+        {
+          title: "Discouter App",
+          description:
+                  "Designed for Discouter, an Australian based discount app for local shops and restaurants. Designed with Adobe XD.",
+          gitLink: "https://xd.adobe.com/view/36120946-2313-4e6e-90aa-61ff00812172-6341/?fullscreen",
+          image: "discouter.jpg"
         },
       ]
     };
