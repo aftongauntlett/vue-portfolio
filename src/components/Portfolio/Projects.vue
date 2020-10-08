@@ -36,7 +36,7 @@ export default {
         {
           title: "MAGFest Mobile App",
           description:
-                  "Designed using Adobe XD, built with React Native and using Firebase as backend. This app is a personal project using MAGFest's API's to streamline their volunteer/staff sign ups during event. This also allows attendees to stay updated on MAGFest's activities throughout the year. The API allows staff to sign up for shifts, check into shifts and remove shifts.",
+                  "Designed using Adobe XD, built with React Native using Firebase for the backend. This app is a personal project using MAGFest's API's to streamline their volunteer/staff sign ups during event. This also allows attendees to stay updated on MAGFest's activities throughout the year. The API allows staff to sign up for shifts, check into shifts and remove shifts.",
           deployedLink: "",
           gitLink: "",
           image: "magfestapp.jpg"
@@ -55,12 +55,12 @@ export default {
                   "Designed and built for a local Massage Therapist. Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue.",
           deployedLink: "https://touchtherapeutic.com",
           gitLink: "https://github.com/aftongauntlett/touchtherapeutic",
-          image: "followdown2.jpg"
+          image: "touch.jpg"
         },
         {
           title: "Evocate",
           description:
-            "Created to showcase full-stack knowledge. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
+            "Created to showcase full-stack knowledge. This was built in a team of 4. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
           deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
           gitLink: "https://github.com/aftongauntlett/evocate",
           image: "evocate.jpg"
@@ -68,7 +68,7 @@ export default {
         {
           title: "Questival",
           description:
-            "Created to showcase knowledge with Express. Questival is designed to connect fellow attendees with events that are tailored to their own personal interests. This app features: Node.js, Express and MySQL.",
+            "Created to showcase knowledge with Express. This app was built in a team of 4. Questival is designed to connect fellow attendees with events that are tailored to their own personal interests. This app features: Node.js, Express and MySQL.",
           deployedLink: "https://questival.herokuapp.com/",
           gitLink: "https://github.com/aftongauntlett/Questival",
           image: "questival.jpg"
@@ -105,7 +105,7 @@ export default {
           image: "discouter.jpg"
         },
         {
-          title: "Discouter App",
+          title: "Touch Therapeutic Massage",
           description:
                   "Designed for Touch Therapeutic, a local massage therapist. Designed with Adobe XD.",
           gitLink: "https://xd.adobe.com/view/8fb85d8f-7363-498a-901e-1b2ffbd6e616-daeb/?fullscreen\n",
