@@ -1,5 +1,5 @@
 <template>
-  <b-card class="p-3 m-2 myCard slow" :img-src="imageLocation" :title="project.title">
+  <b-card class="p-3 m-2 slow" :img-src="imageLocation" :title="project.title">
     <b-card-text>
       {{ project.description }}
       <div class="mt-3">

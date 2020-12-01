@@ -22,8 +22,9 @@ export default {
         "JavaScript",
         "Axure",
         "jQuery",
-        "InVision",
+        "WordPress",
         "Firebase",
+        "PHP",
         "Responsive Design",
         "Node",
         "Wireframing",
@@ -32,7 +33,6 @@ export default {
         "HTML",
         "508c",
         "Jest",
-        "Es6+",
       ]
     };
   }

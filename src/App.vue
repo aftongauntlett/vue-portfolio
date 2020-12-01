@@ -1,13 +1,9 @@
 <template>
-  <div id="app" class="w-100 d-flex flex-wrap flex-column">
-    <div
-      class="backgroundImage"
-      :style="{ 'background-image': `url(${imageUrl})` }"
-    ></div>
+  <div id="app" class="h-100">
     <Navbar />
-    <router-view class="container" />
-    <Footer class="mt-auto" />
-    <notifications group="main" position="center bottom" />
+    <router-view class="h-100" :class="$route.name === 'Home' ? 'container-fluid' : 'container'" />
+<!--    <Footer class="mt-auto" />-->
+
   </div>
 </template>
 
@@ -37,7 +33,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-height: 100vh;
   min-width: 100vw;
 }
 
@@ -56,4 +51,80 @@ export default {
 .card {
   background-color: rgba(223, 228, 241, 0.918);
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  font-family: 'PT Serif', serif;
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://images.pexels.com/photos/236606/pexels-photo-236606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4ff4f4;
+  color: #666;
+}
+
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent!important;
+}
+
+@media (max-width: 568px){
+  .pimg3, .pimg2, .pimg1 {
+    background-attachment: scroll;
+  }
+}
+
 </style>
