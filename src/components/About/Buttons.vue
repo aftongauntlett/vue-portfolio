@@ -40,7 +40,6 @@ export default {
       links: [
         { name: "Portfolio", link: "Portfolio" },
         { name: "Contact", link: "Contact" },
-        { name: "Hire", link: "Hire" }
       ]
     };
   }

@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark" sticky>
-    <b-navbar-brand :to="{ name: 'Home' }">Home</b-navbar-brand>
+    <b-navbar-brand :to="{ name: 'Home' }">Afton Gauntlett</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

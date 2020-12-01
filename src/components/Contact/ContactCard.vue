@@ -128,40 +128,6 @@
   margin-top: 20px;
 }
 
-/* animation */
-
-/* .text {
-  color: white;
-  font-family: "Martel", serif;
-  font-size: 35px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #8a94b49f;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: 0.5s ease;
-}
-
-.dropDown:hover .overlay {
-  bottom: 0;
-  height: 100%;
-} */
-
-/* end */
-
 ul {
   list-style: none;
 }
@@ -173,6 +139,10 @@ ul {
 
 .slow {
   animation: slow 0.5s ease forwards;
+}
+
+.card-link {
+  color: #2c3e50;
 }
 
 @keyframes slow {
@@ -192,7 +162,6 @@ export default {
       links: [
         { name: "Portfolio", link: "Portfolio" },
         { name: "About", link: "About" },
-        { name: "Hire", link: "Hire" },
       ],
     };
   },

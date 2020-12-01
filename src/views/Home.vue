@@ -10,60 +10,33 @@ Afton Gauntlett
     </div>
 
     <section class="section section-light">
-      <h2>About Me</h2>
-      <p>
-        I am a technology-minded individual with a passion for Front End Web Development. Inspired by design and
-        performance - I am able to build fluid, attractive and responsive websites and apps for any need. I have a
-        multi-disciplinary background in research and entrepreneurship, backed with creativity and drive.
-      </p>
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a technology-minded individual with a passion for Front End Web Development. Inspired by design and
+          performance - I am able to build fluid, attractive and responsive websites and apps for any need. I have a
+          multi-disciplinary background in research and entrepreneurship, backed with creativity and drive.
+        </p>
+      </div>
     </section>
 
     <div class="pimg2">
       <div class="ptext">
   <span class="border trans">
-Image 2 Text
+Skills
   </span>
       </div>
     </div>
 
     <section class="section section-dark">
-      <h2>Skill Set</h2>
-      <div class="container justify-content-center techStack">
-        <div class="row">
-          <div class="col-6 col-md-3">
-            <ul>
-            <li>Vue</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>WordPress</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>PHP</li>
-            <li>jQuery</li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-3">
-            <ul>
-            <li>Bootstrap</li>
-            <li>Adobe XD</li>
-            <li>Responsive Design</li>
-            <li>508c</li>
-            <li>Wireframing</li>
-            <li>Firebase</li>
-            <li>Node</li>
-            <li>Jest</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <h2>Tech Stack</h2>
+    <TechStack light/>
     </section>
 
     <div class="pimg3">
       <div class="ptext">
   <span class="border trans">
-Image 3 Text
+Contact Me
   </span>
       </div>
     </div>
@@ -93,26 +66,19 @@ Image 3 Text
       </div>
     </section>
 
-    <div class="pimg1">
-      <div class="ptext">
-  <span class="border">
-    <a href="/">
-    Back to Top
-    </a>
-  </span>
-
-      </div>
-    </div>
   </div>
+
 </template>
 
 <script>
 import Title from "../components/Home/Title";
 import Links from "../components/Home/Links";
+import TechStack from "@/components/About/TechStack";
 
 export default {
   name: "Home",
   components: {
+    TechStack,
     Links,
     Title,
   },

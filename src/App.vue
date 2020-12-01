@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="h-100">
     <Navbar />
-    <router-view class="h-100" :class="$route.name === 'Home' ? 'container-fluid' : 'container'" />
+    <router-view class="h-100" :class="$route.name === 'Home' ? '' : 'container'" />
 <!--    <Footer class="mt-auto" />-->
 
   </div>
@@ -71,12 +71,12 @@ body, html {
   background-attachment: fixed;
 }
 .pimg1 {
-  background-image: url("https://images.pexels.com/photos/2558605/pexels-photo-2558605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("/assets/field.jpg");
   min-height: 100%;
 }
 
 .pimg2 {
-  background-image: url("https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("/assets/mountain.jpg");
   min-height: 400px;
 }
 

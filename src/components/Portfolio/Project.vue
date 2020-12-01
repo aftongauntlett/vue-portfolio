@@ -1,5 +1,5 @@
 <template>
-  <b-card class="p-3 m-2 slow" :img-src="imageLocation" :title="project.title">
+  <b-card class="p-3 m-5 myCard slow" :img-src="imageLocation" :title="project.title">
     <b-card-text>
       {{ project.description }}
       <div class="mt-3">
@@ -10,6 +10,7 @@
           target="_blank"
         >Deployed</b-button>
         <b-button
+          v-if="project.gitLink"
           class="pButton ml-3 my-2"
           variant="dark"
           :href="project.gitLink"
@@ -37,6 +38,7 @@ export default {
 <style scoped>
 .myCard {
   max-width: 30rem;
+  min-width: 20px;
 }
 
 .content {

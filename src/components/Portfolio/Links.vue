@@ -18,7 +18,6 @@ export default {
       links: [
         { name: "About", link: "About" },
         { name: "Contact", link: "Contact" },
-        { name: "Hire", link: "Hire" },
       ],
     };
   },

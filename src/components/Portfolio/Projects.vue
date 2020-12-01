@@ -1,18 +1,15 @@
 <template>
-  <div>
-    <div class="container">
+    <b-card class="card projCard">
       <p class="slow title">Projects</p>
       <div class="d-flex justify-content-center flex-wrap">
         <Project v-for="project in projects" :key="project.title" :project="project"/>
       </div>
-    </div>
-  </div>
+    </b-card>
 
 </template>
 
 <script>
 import Project from "./Project";
-import Wireframe from "./Wireframe";
 
 export default {
   name: "Projects",
@@ -21,40 +18,25 @@ export default {
       projects: [
         {
           title: "Touch Therapeutic",
-          description: "Designed with Adobe XD and built using Vue. Created for a local massage therapist in Virginia.",
+          description: "Designed and built for a massage therapist in Virginia. Designed with Adobe XD, built using Vue and hosted with Firebase. ",
           deployedLink: "https://touchtherapeuticva.com/",
           image: "touch.jpg"
         },
         {
           title: "Siren Song Shop",
           description:
-              "Designed using Adobe XD, built with Vue. Created for a local shop in Florida.",
+              "Designed and built for a specialty shop in Florida. Designed with Adobe XD, built using Vue and hosted with Firebase. ",
           deployedLink: "https://sirensongshop.com/",
-          image: "sirensong.jpg"
+          gitLink: "https://github.com/aftongauntlett/siren-song",
+          image: "siren.png"
         },
         {
           title: "East Central Countertops",
           description:
-              "Designed and built for East Central Countertops, a contractor company located in Minnesota. Built using Vue and hosted with Firebase.",
+              "Designed and built for a cabinet and countertop business in Minnesota. Designed with Adobe XD,  built using Vue and hosted with Firebase.",
           deployedLink: "https://east-central-countertops.web.app/#/",
           gitLink: "https://github.com/aftongauntlett/east-central-countertops",
           image: "eastcentral.jpg"
-        },
-        {
-          title: "Evocate",
-          description:
-              "Created to showcase full-stack knowledge. This was built in a team of 4. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node.",
-          deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
-          gitLink: "https://github.com/aftongauntlett/evocate",
-          image: "evocate.jpg"
-        },
-        {
-          title: "Questival",
-          description:
-              "Created to showcase knowledge with Express. This app was built in a team of 4. Questival is designed to connect fellow attendees with events that are tailored to their own personal interests. This app features: Node.js, Express and MySQL.",
-          deployedLink: "https://questival.herokuapp.com/",
-          gitLink: "https://github.com/aftongauntlett/Questival",
-          image: "questival.jpg"
         },
         {
           title: "Follow|down",
@@ -63,6 +45,22 @@ export default {
           deployedLink: "https://followdown.com/",
           gitLink: "https://github.com/aftongauntlett/followdown",
           image: "followdown2.jpg"
+        },
+        {
+          title: "Evocate",
+          description:
+              "Created to showcase full-stack knowledge. This was built in a team of 4. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node. We focused on team building using Jira, GIT and Github.",
+          deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
+          gitLink: "https://github.com/aftongauntlett/evocate",
+          image: "evocate.jpg"
+        },
+        {
+          title: "Questival",
+          description:
+              "Created to showcase knowledge with Express. This app was built in a team of 4. Questival is designed to connect fellow attendees with events that are tailored to their own personal interests. This app features: Node.js, Express and MySQL. We focused on team building using Jira, GIT and Github.",
+          deployedLink: "https://questival.herokuapp.com/",
+          gitLink: "https://github.com/aftongauntlett/Questival",
+          image: "questival.jpg"
         },
       ],
     };
@@ -79,13 +77,21 @@ export default {
   padding-top: 25px;
   padding-bottom: 10px;
   font-size: 35px;
-  color: rgba(241, 240, 240, 0.897);
-  border-bottom: 2px solid rgba(241, 240, 240, 0.897);
+  color: #2c3e50;
+  border-bottom: 1px solid #2c3e50;
   font-family: "Martel", serif;
+}
+
+.projCard {
+  margin-top: 40px;
 }
 
 .slow {
   animation: slow 0.5s ease-in-out;
+}
+
+.container {
+  background-color: rgba(223, 228, 241, 0.918);
 }
 
 @keyframes slow {
