@@ -8,7 +8,8 @@ export default {};
 
 <style scoped>
 .footerFont {
-  color: rgba(231, 228, 228, 0.76);
+  color: #ddd;
+  background-color: #282e34;
   font-family: "Martel", serif;
   padding: 20px;
 }

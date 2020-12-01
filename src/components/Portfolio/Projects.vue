@@ -18,14 +18,14 @@ export default {
       projects: [
         {
           title: "Touch Therapeutic",
-          description: "Designed and built for a massage therapist in Virginia. Designed with Adobe XD, built using Vue and hosted with Firebase. ",
+          description: "Designed and built for a massage therapist in Virginia. Designed with Adobe XD, built using Vue and hosted with Firebase. Finished project coming soon.",
           deployedLink: "https://touchtherapeuticva.com/",
           image: "touch.jpg"
         },
         {
           title: "Siren Song Shop",
           description:
-              "Designed and built for a specialty shop in Florida. Designed with Adobe XD, built using Vue and hosted with Firebase. ",
+              "Designed and built for a specialty shop in Florida. Designed with Adobe XD, built using Vue and hosted with Firebase. Finished project coming soon.",
           deployedLink: "https://sirensongshop.com/",
           gitLink: "https://github.com/aftongauntlett/siren-song",
           image: "siren.png"

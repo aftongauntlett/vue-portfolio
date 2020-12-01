@@ -22,9 +22,8 @@ Afton Gauntlett
 
     <div class="pimg2">
       <div class="ptext">
-  <span class="border trans">
-Skills
-  </span>
+        <b-button class="border trans px-5" :to="{ name: 'About' }">Skills</b-button>
+
       </div>
     </div>
 
@@ -35,9 +34,7 @@ Skills
 
     <div class="pimg3">
       <div class="ptext">
-  <span class="border trans">
-Contact Me
-  </span>
+        <b-button class="border trans px-5" :to="{ name: 'Contact' }">Contact Me</b-button>
       </div>
     </div>
 
@@ -65,7 +62,6 @@ Contact Me
         </div>
       </div>
     </section>
-
   </div>
 
 </template>
@@ -96,6 +92,10 @@ export default {
 .contactIcon {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.btn {
+  font-size: unset;
 }
 
 a {
