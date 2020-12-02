@@ -17,11 +17,11 @@ export default {
   data() {
     return {
       techStack: [
+        "Vue",
         "React",
         "CSS",
         "React Native",
         "Bootstrap",
-        "Vue",
         "Adobe XD",
         "Python",
         "Figma",

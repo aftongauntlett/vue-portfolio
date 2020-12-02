@@ -73,6 +73,14 @@ body, html {
   overflow-x: hidden;
 }
 
+body {
+  overflow: auto;
+}
+
+html {
+  overflow: hidden;
+}
+
 .darkBackground {
   background-color: #44484e;
 }

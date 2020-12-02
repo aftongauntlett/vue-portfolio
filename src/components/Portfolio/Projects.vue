@@ -90,6 +90,12 @@ export default {
   animation: slow 0.5s ease-in-out;
 }
 
+@media screen and (min-width: 600px) {
+  .projCard {
+    margin: 20px;
+  }
+}
+
 .container {
   background-color: rgba(223, 228, 241, 0.918);
 }

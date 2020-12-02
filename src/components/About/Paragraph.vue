@@ -4,7 +4,7 @@
       <b-card-text>
         <p>I am a technology-minded individual with a passion for Front End Web
         Development. Inspired by design and performance - I am able to build
-        fluid, attractive and responsive websites and apps for any need. I have a
+        fluid, attractive and responsive websites for any need. I have a
         multi-disciplinary background in research and entrepreneurship, backed
           with creativity and drive.</p>
         <p class="font-weight-bold">Tech Stack:</p>
