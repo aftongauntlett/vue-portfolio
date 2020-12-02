@@ -14,7 +14,7 @@ Afton Gauntlett
         <h2>About Me</h2>
         <p>
           I am a technology-minded individual with a passion for Front End Web Development. Inspired by design and
-          performance - I am able to build fluid, attractive and responsive websites and apps for any need. I have a
+          performance - I am able to build fluid, attractive and responsive websites for any need. I have a
           multi-disciplinary background in research and entrepreneurship, backed with creativity and drive.
         </p>
       </div>
@@ -23,7 +23,6 @@ Afton Gauntlett
     <div class="pimg2">
       <div class="ptext">
         <b-button class="border trans px-5" :to="{ name: 'About' }">Skills</b-button>
-
       </div>
     </div>
 

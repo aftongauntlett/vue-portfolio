@@ -49,7 +49,7 @@ export default {
 .techStack {
   line-height: 200%;
   color: rgb(46, 40, 40);
-  padding-top: 35px;
+  padding-top: 20px;
 }
 
 .light {
