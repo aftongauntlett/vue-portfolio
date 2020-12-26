@@ -4,11 +4,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub followers](https://img.shields.io/github/followers/aftongauntlett?style=social)
 
+## About
+
 **Github Repo:** https://github.com/aftongauntlett/vue-portfolio
 
 **Deployed:** https://aftongauntlett.com/
 
-## Description
+## Tech Stack
 
 Personal portfolio built using the following technologies:
 
@@ -17,16 +19,17 @@ Personal portfolio built using the following technologies:
 - CSS
 - Bootstrap
 - JavaScript
+- Firebase
 
-## Screenshot:
+## Screenshot
 
-![Front Page of portfolio](https://i.imgur.com/SlIxC65.jpg)
+![Front Page of portfolio](https://i.imgur.com/lXUdbQK.png)
 
 ## License
 
 MIT License
 
-Copyright(c) [2020][afton gauntlett]
+Copyright(c) [2020] [Afton Gauntlett]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files(the "Software"), to deal
@@ -46,32 +49,30 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-# portfolio
-
 ## Project setup
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and Hot-Reloads for Development
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and Minifies for Production
 
 ```
 npm run build
 ```
 
-### update
+#### Update
 
 ```
 sh deploy.sh
 ```
 
-### Customize configuration
+#### Customize Configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
