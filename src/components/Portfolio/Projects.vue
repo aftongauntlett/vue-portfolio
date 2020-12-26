@@ -18,14 +18,14 @@ export default {
       projects: [
         {
           title: "Touch Therapeutic",
-          description: "Designed and built for a massage therapist in Virginia. Designed with Adobe XD, built using Vue and hosted with Firebase. Finished project coming soon.",
+          description: "Built for a local massage therapist. Designed using Adobe XD, built in Vue, then transported to a custom theme I built in WordPress/PHP.",
           deployedLink: "https://touchtherapeuticva.com/",
           image: "touch.jpg"
         },
         {
           title: "Siren Song Shop",
           description:
-              "Designed and built for a specialty shop in Florida. Designed with Adobe XD, built using Vue and hosted with Firebase. Finished project coming soon.",
+              "Built for a specialty shop in Florida. Designed using Adobe XD, built in Vue, then transported to a custom theme I built in WordPress/PHP.",
           deployedLink: "https://sirensongshop.com/",
           gitLink: "https://github.com/aftongauntlett/siren-song",
           image: "siren.png"
@@ -33,7 +33,7 @@ export default {
         {
           title: "East Central Countertops",
           description:
-              "Designed and built for a cabinet and countertop business in Minnesota. Designed with Adobe XD,  built using Vue and hosted with Firebase.",
+              "Designed and built for a cabinet and countertop business in Minnesota. Designed with Adobe XD, built using Vue and hosted with Firebase.",
           deployedLink: "https://east-central-countertops.web.app/#/",
           gitLink: "https://github.com/aftongauntlett/east-central-countertops",
           image: "eastcentral.jpg"
@@ -41,7 +41,7 @@ export default {
         {
           title: "Follow|down",
           description:
-              "Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue and Bootstrap-vue.",
+              "Project for learning purposes only. Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue and Bootstrap-vue.",
           deployedLink: "https://followdown.com/",
           gitLink: "https://github.com/aftongauntlett/followdown",
           image: "followdown2.jpg"
@@ -49,7 +49,7 @@ export default {
         {
           title: "Evocate",
           description:
-              "Created to showcase full-stack knowledge. This was built in a team of 4. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node. We focused on team building using Jira, GIT and Github.",
+              "Created to showcase full-stack knowledge, built in a team of 4. Evocate is a card matching game to test your memory. This app features: React, MySQL, Sequelize, HTML/CSS/JS and Node. We focused on team building using Jira, GIT and Github.",
           deployedLink: "https://aftongauntlett.github.io/evocate-public/#/",
           gitLink: "https://github.com/aftongauntlett/evocate",
           image: "evocate.jpg"
@@ -57,7 +57,7 @@ export default {
         {
           title: "Questival",
           description:
-              "Created to showcase knowledge with Express. This app was built in a team of 4. Questival is designed to connect fellow attendees with events that are tailored to their own personal interests. This app features: Node.js, Express and MySQL. We focused on team building using Jira, GIT and Github.",
+              "Created to showcase knowledge with Express, built in a team of 4. Questival is designed to connect fellow attendees with events that are tailored to their own personal interests. This app features: Node.js, Express and MySQL. We focused on team building using Jira, GIT and Github.",
           deployedLink: "https://questival.herokuapp.com/",
           gitLink: "https://github.com/aftongauntlett/Questival",
           image: "questival.jpg"
