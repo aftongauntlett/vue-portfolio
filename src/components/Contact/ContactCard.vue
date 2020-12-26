@@ -54,11 +54,22 @@
           <li class="contactCard contactButton">
             <a
               class="card-link"
-              href="https://docs.google.com/document/d/14VzlSZ4m5wphZyg0TUCJDvdQAe6lHn8Nb5GLKpa_MQA/edit"
+              href="https://docs.google.com/document/d/1CkATUVmyFAcupvgI0j2ImEwS4ZSgP-MGnvveLyYhcfk/edit?usp=sharing"
               target="_blank"
             >
               <i class="fa fa-file fa-2x text-dark"></i>
               <br />View Resume
+            </a>
+          </li>
+
+          <li class="contactCard contactButton">
+            <a
+                class="card-link"
+                href="https://docs.google.com/document/d/1sGyrdyDwyZmskLZkoHULOFk2oAVqCA5zNFDJXETm5Nw/edit?usp=sharing"
+                target="_blank"
+            >
+              <i class="fa fa-file fa-2x text-dark"></i>
+              <br />View Cover Letter
             </a>
           </li>
         </ul>

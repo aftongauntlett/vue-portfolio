@@ -31,6 +31,14 @@ export default {
           image: "siren.png"
         },
         {
+          title: "MAGStock",
+          description:
+              "Designed and built for MAGFest, inc. Created using a combination of HTML, CSS, Bootstrap and JavaScript.",
+          deployedLink: "https://MAGStock.org/",
+          gitLink: "https://github.com/aftongauntlett/MAGStock2020",
+          image: "magstock.jpg"
+        },
+        {
           title: "East Central Countertops",
           description:
               "Designed and built for a cabinet and countertop business in Minnesota. Designed with Adobe XD, built using Vue and hosted with Firebase.",
