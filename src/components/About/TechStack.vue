@@ -20,13 +20,9 @@ export default {
         "Vue",
         "React",
         "CSS",
-        "React Native",
         "Bootstrap",
         "Adobe XD",
-        "Python",
-        "Figma",
         "JavaScript",
-        "Axure",
         "jQuery",
         "WordPress",
         "Firebase",
@@ -38,7 +34,6 @@ export default {
         "Prototyping",
         "HTML",
         "508c",
-        "Jest",
       ]
     };
   }

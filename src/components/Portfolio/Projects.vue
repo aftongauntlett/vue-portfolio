@@ -18,14 +18,14 @@ export default {
       projects: [
         {
           title: "Touch Therapeutic",
-          description: "Built for a local massage therapist. Designed using Adobe XD, built in Vue, then transported to a custom theme I built in WordPress/PHP.",
+          description: "Built for a local massage therapist. Designed using Adobe XD and built using one of my custom made WordPress themes.",
           deployedLink: "https://touchtherapeuticva.com/",
           image: "touch.jpg"
         },
         {
           title: "Siren Song Shop",
           description:
-              "Built for a specialty shop in Florida. Designed using Adobe XD, built in Vue, then transported to a custom theme I built in WordPress/PHP.",
+              "Built for a specialty shop in Florida. Designed using Adobe XD and built using one of my custom made WordPress themes.",
           deployedLink: "https://sirensongshop.com/",
           gitLink: "https://github.com/aftongauntlett/siren-song",
           image: "siren.png"
