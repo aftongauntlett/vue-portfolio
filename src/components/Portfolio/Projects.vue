@@ -36,7 +36,7 @@ export default {
               "Designed and built for MAGFest, inc. Created using a combination of HTML, CSS, Bootstrap and JavaScript.",
           deployedLink: "https://MAGStock.org/",
           gitLink: "https://github.com/aftongauntlett/MAGStock2020",
-          image: "magstock.jpg"
+          image: "magstock.png"
         },
         {
           title: "East Central Countertops",
