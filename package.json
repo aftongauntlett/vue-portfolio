@@ -13,6 +13,7 @@
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
+    "vue-faq-accordion": "^1.6.2",
     "vue-notification": "^1.3.20",
     "vue-router": "^3.4.5"
   },

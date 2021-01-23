@@ -39,14 +39,6 @@ export default {
           image: "magstock.png"
         },
         {
-          title: "East Central Countertops",
-          description:
-              "Designed and built for a cabinet and countertop business in Minnesota. Designed with Adobe XD, built using Vue and hosted with Firebase.",
-          deployedLink: "https://east-central-countertops.web.app/#/",
-          gitLink: "https://github.com/aftongauntlett/east-central-countertops",
-          image: "eastcentral.jpg"
-        },
-        {
           title: "Follow|down",
           description:
               "Project for learning purposes only. Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue and Bootstrap-vue.",
