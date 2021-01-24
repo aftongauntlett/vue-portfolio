@@ -1,14 +1,20 @@
 <template>
-    <b-card class="card projCard">
-      <p class="slow title">Projects</p>
-      <div class="d-flex justify-content-center flex-wrap">
-        <Project v-for="project in projects" :key="project.title" :project="project"/>
+    <div class="projCard">
+      <p class="title">Projects</p>
+      <div class="d-flex align-items-center flex-column">
+        <Project
+            class="mb-5"
+            v-for="(project, ind) in projects"
+            :key="project.title"
+            :project="project"
+        />
       </div>
-    </b-card>
+    </div>
 
 </template>
 
 <script>
+
 import Project from "./Project";
 
 export default {
@@ -20,7 +26,7 @@ export default {
           title: "Touch Therapeutic",
           description: "Built for a local massage therapist. Designed using Adobe XD and built using a self-made custom WordPress theme.",
           deployedLink: "https://touchtherapeuticva.com/",
-          image: "touch.jpg"
+          image: "touch.png"
         },
         {
           title: "Siren Song Shop",
@@ -70,42 +76,27 @@ export default {
     Project
   }
 };
+
 </script>
 
 <style scoped>
+
 .title {
-  padding-top: 25px;
+  padding-top: 40px;
   padding-bottom: 10px;
-  font-size: 35px;
-  color: #2c3e50;
-  border-bottom: 1px solid #2c3e50;
+  font-size: 40px;
+  color: #555860;
   font-family: "Martel", serif;
 }
 
 .projCard {
   margin-top: 40px;
-}
-
-.slow {
-  animation: slow 0.5s ease-in-out;
+  background-color: #f5f5f8;
 }
 
 @media screen and (min-width: 600px) {
   .projCard {
     margin: 20px;
-  }
-}
-
-.container {
-  background-color: rgba(223, 228, 241, 0.918);
-}
-
-@keyframes slow {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 </style>

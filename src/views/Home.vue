@@ -22,7 +22,7 @@ Afton Gauntlett
 
     <div class="pimg2">
       <div class="ptext">
-        <b-button class="border trans px-5" :to="{ name: 'About' }">Skills</b-button>
+        <b-button class="grow border trans px-5" :to="{ name: 'About' }">Skills</b-button>
       </div>
     </div>
 
@@ -33,7 +33,7 @@ Afton Gauntlett
 
     <div class="pimg3">
       <div class="ptext">
-        <b-button class="border trans px-5" :to="{ name: 'Contact' }">Contact Me</b-button>
+        <b-button class="grow border trans px-5" :to="{ name: 'Contact' }">Contact Me</b-button>
       </div>
     </div>
 
@@ -66,6 +66,9 @@ Afton Gauntlett
 </template>
 
 <script>
+
+
+
 import Title from "../components/Home/Title";
 import Links from "../components/Home/Links";
 import TechStack from "@/components/About/TechStack";
@@ -107,6 +110,9 @@ a {
   transform: scale(1.1);
   font-family: "Martel", serif;
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 
 .aboutButton {
   opacity: 0.8;

@@ -42,11 +42,12 @@ export default {
 <style scoped>
 .techStack {
   line-height: 200%;
-  color: rgb(46, 40, 40);
+  color: rgb(115, 118, 124);
   padding-top: 20px;
+  font-family: "Martel", serif;
 }
 
 .light {
-  color: #fff;
+  color: #bebec3 !important;
 }
 </style>

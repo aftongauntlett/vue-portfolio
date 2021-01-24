@@ -61,17 +61,6 @@
               <br />View Resume
             </a>
           </li>
-
-          <li class="contactCard contactButton">
-            <a
-                class="card-link"
-                href="https://docs.google.com/document/d/1sGyrdyDwyZmskLZkoHULOFk2oAVqCA5zNFDJXETm5Nw/edit?usp=sharing"
-                target="_blank"
-            >
-              <i class="fa fa-file fa-2x text-dark"></i>
-              <br />View Cover Letter
-            </a>
-          </li>
         </ul>
 
         <b-button
@@ -89,6 +78,7 @@
 </template>
 
 <style scoped>
+
 .contactCard {
   text-align: center;
   padding: 20px;
@@ -101,13 +91,28 @@
 }
 
 .card-title {
-  border-bottom: 2px solid rgba(109, 108, 110, 0.514);
-  font-family: "Martel", serif;
-  font-size: 35px;
-  color: #2c3e50;
-  padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 20px;
+  font-size: 40px;
+  color: #555860;
+  font-family: "Martel", serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-link {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    color: #555860;
+    font-family: "Martel", serif;
+  }
+
+.contactCard {
+  margin-left: unset;
+  margin-right: unset;
+  padding: unset;
+}
 }
 
 .contactButton:hover {

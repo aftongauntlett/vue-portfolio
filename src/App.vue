@@ -35,7 +35,6 @@ export default {
 
 <style>
 #app {
-  /*background-color: #282e34;*/
   font-family: "Martel", serif;
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -44,22 +43,6 @@ export default {
   color: #2c3e50;
   min-width: 100vw;
   height: 100%;
-}
-
-/*.backgroundImage {*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
-/*  right: 0;*/
-/*  background-repeat: no-repeat;*/
-/*  background-attachment: fixed;*/
-/*  background-size: cover;*/
-/*  z-index: -1;*/
-/*}*/
-
-.card {
-  background-color: rgba(223, 228, 241, 0.918);
 }
 
 body, html {
@@ -71,6 +54,10 @@ body, html {
   font-family: 'PT Serif', serif;
   color: #666;
   overflow-x: hidden;
+}
+
+.card-title {
+  padding-top: 20px;
 }
 
 body {
@@ -121,7 +108,7 @@ html {
 
 .section-dark{
   background-color: #282e34;
-  color: #ddd;
+  color: #f5f5f8;
 }
 
 .ptext {
@@ -137,12 +124,8 @@ html {
 
 .ptext .border {
   background-color: #111;
-  color: #fff;
+  color: #f5f5f8;
   padding: 20px;
-}
-
-.border {
-
 }
 
 .ptext .border.trans {

@@ -1,20 +1,20 @@
 <template>
-  <b-card class="p-3 mb-3 m-md-5 myCard slow" :img-src="imageLocation" :title="project.title">
+  <b-card class="mb-3 m-md-5 myCard" :img-src="imageLocation" :title="project.title">
     <b-card-text>
       {{ project.description }}
       <div class="mt-3">
         <b-button
-          class="pButton ml-3 my-2"
-          variant="dark"
-          :href="project.deployedLink"
-          target="_blank"
+            class="pButton ml-3 my-2"
+            variant="dark"
+            :href="project.deployedLink"
+            target="_blank"
         >Deployed</b-button>
         <b-button
-          v-if="project.gitLink"
-          class="pButton ml-3 my-2"
-          variant="dark"
-          :href="project.gitLink"
-          target="_blank"
+            v-if="project.gitLink"
+            class="pButton ml-3 my-2"
+            variant="dark"
+            :href="project.gitLink"
+            target="_blank"
         >Github</b-button>
       </div>
     </b-card-text>
@@ -22,6 +22,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Project",
   props: {
@@ -33,12 +34,19 @@ export default {
     }
   }
 };
+
 </script>
 
 <style scoped>
+
+
+
 .myCard {
   max-width: 30rem;
   min-width: 20px;
+  border: unset;
+  padding-bottom: 30px;
+  box-shadow: 5px 5px 5px 5px #979da2;
 }
 
 .content {
@@ -60,16 +68,5 @@ export default {
   transform: scale(1.1);
 }
 
-.slow {
-  animation: slow 0.5s ease forwards;
-}
 
-@keyframes slow {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 </style>

@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
-import Portfolio from "../views/Portfolio.vue";
+import Projects from "@/components/Portfolio/Projects"
 import Contact from "../views/Contact.vue";
 import Hire from "../views/Hire.vue";
 
@@ -22,7 +22,7 @@ const routes = [
   {
     path: "/portfolio",
     name: "Portfolio",
-    component: Portfolio,
+    component: Projects,
   },
   {
     path: "/contact",
