@@ -1,5 +1,5 @@
 <template>
-  <div class="footerFont">&copy; 2020 Copyright Afton Gauntlett</div>
+  <div class="footerFont">&copy; 2021 Copyright Afton Gauntlett</div>
 </template>
 
 <script>
