@@ -23,10 +23,11 @@ export default {
     return {
       projects: [
         {
-          title: "Touch Therapeutic",
-          description: "Built for a local massage therapist. Designed using Adobe XD and built using a self-made custom WordPress theme.",
-          deployedLink: "https://touchtherapeuticva.com/",
-          image: "touch.png"
+          title: "Gauntlet Web Designs",
+          description:
+              "Built for my personal business in website design, build and hosting.",
+          deployedLink: "https://gauntletdesigns.com/",
+          image: "gauntletdesigns.jpg"
         },
         {
           title: "Siren Song Shop",
