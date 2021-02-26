@@ -27,7 +27,7 @@ export default {
           description:
               "Built for my personal business in website design, build and hosting.",
           deployedLink: "https://gauntletdesigns.com/",
-          image: "gauntletdesigns.jpg"
+          image: "gauntletdesigns.png"
         },
         {
           title: "Siren Song Shop",
