@@ -1,5 +1,6 @@
 <template>
-    <div class="projCard">
+  <div class="d-flex justify-content-center">
+    <div class="projCard px-4">
       <p class="title">Projects</p>
       <div class="d-flex align-items-center flex-column">
         <Project
@@ -10,6 +11,7 @@
         />
       </div>
     </div>
+  </div>
 
 </template>
 
