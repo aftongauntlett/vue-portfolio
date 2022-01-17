@@ -1,6 +1,10 @@
 <template>
   <div class="slow card-area container d-flex justify-content-center">
-    <b-card title="Why Choose Me?" tag="article" class="aboutTitle m-md-5 mt-3 p-3">
+    <b-card
+      title="Why Choose Me?"
+      tag="article"
+      class="aboutTitle m-md-5 mt-3 p-3"
+    >
       <b-card-text>
         <Offers />
         <Buttons />
@@ -17,8 +21,8 @@ export default {
   name: "Paragraph",
   components: {
     Buttons,
-    Offers
-  }
+    Offers,
+  },
 };
 </script>
 
@@ -26,14 +30,12 @@ export default {
 .card-title {
   border-bottom: 2px solid rgba(109, 108, 110, 0.514);
   padding-bottom: 20px;
-  font-family: "Martel", serif;
   font-size: 35px;
   color: #2c3e50;
 }
 
 .card-area {
   text-align: center;
-  font-family: "Martel", serif;
 }
 
 .card-text {

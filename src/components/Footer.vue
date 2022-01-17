@@ -1,5 +1,7 @@
 <template>
-  <div class="footerFont">&copy; 2021 Copyright Afton Gauntlett</div>
+  <div class="footerFont">
+    &copy; {{ new Date().getFullYear() }} Copyright Afton Gauntlett
+  </div>
 </template>
 
 <script>
@@ -10,7 +12,6 @@ export default {};
 .footerFont {
   color: #ddd;
   background-color: #282e34;
-  font-family: "Martel", serif;
   padding: 20px;
 }
 </style>

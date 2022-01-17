@@ -2,16 +2,15 @@
   <div id="app" class="d-flex flex-column justify-content-between">
     <Navbar />
     <b-container
-        v-if="$route.name !== 'Home'"
-        fluid
-        class="flex-grow-1"
-        :class="$route.name === 'Home' ? '' : 'darkBackground'"
+      v-if="$route.name !== 'Home'"
+      fluid
+      class="flex-grow-1"
+      :class="$route.name === 'Home' ? '' : 'darkBackground'"
     >
-      <router-view class="container"/>
+      <router-view class="container" />
     </b-container>
-    <router-view v-else/>
-    <Footer/>
-
+    <router-view v-else />
+    <Footer />
   </div>
 </template>
 
@@ -35,7 +34,8 @@ export default {
 
 <style>
 #app {
-  font-family: "Martel", serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,13 +45,14 @@ export default {
   height: 100%;
 }
 
-body, html {
+body,
+html {
   height: 100%;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
-  font-family: 'PT Serif', serif;
   color: #666;
   overflow-x: hidden;
 }
@@ -72,9 +73,11 @@ html {
   background-color: #44484e;
 }
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1,
+.pimg2,
+.pimg3 {
   position: relative;
-  opacity: 0.70;
+  opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,7 +86,6 @@ html {
 .pimg1 {
   background-image: url("/assets/field.jpg");
   min-height: 70vh;
-
 }
 
 .pimg2 {
@@ -102,11 +104,11 @@ html {
 }
 
 .section-light {
-  background-color: #f4ff4f4;
+  background-color: #f4f4f4;
   color: #666;
 }
 
-.section-dark{
+.section-dark {
   background-color: #282e34;
   color: #f5f5f8;
 }
@@ -129,11 +131,13 @@ html {
 }
 
 .ptext .border.trans {
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 
-@media (max-width: 568px){
-  .pimg3, .pimg2, .pimg1 {
+@media (max-width: 568px) {
+  .pimg3,
+  .pimg2,
+  .pimg1 {
     background-attachment: scroll;
   }
   .border {
@@ -141,12 +145,11 @@ html {
   }
 
   .section {
-   padding: 15px 15px;
+    padding: 15px 15px;
   }
 
   .ptext {
     font-size: 16px;
   }
 }
-
 </style>

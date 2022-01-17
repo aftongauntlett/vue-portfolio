@@ -29,7 +29,7 @@ Personal portfolio built using the following technologies:
 
 MIT License
 
-Copyright(c) [2020] [Afton Gauntlett]
+Copyright(c) [2022] [Afton Gauntlett]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files(the "Software"), to deal

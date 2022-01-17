@@ -28,12 +28,10 @@ export default {
 .aboutButton:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
-  font-family: "Martel", serif;
 }
 
 .aboutButton {
   opacity: 0.8;
-  font-family: "Martel", serif;
   font-size: 20px;
   padding-left: 15px;
   padding-right: 15px;

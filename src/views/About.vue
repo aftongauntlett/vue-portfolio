@@ -6,15 +6,11 @@
 
 <script>
 import Paragraph from "../components/About/Paragraph";
+
 export default {
+  components: { Paragraph },
   name: "About",
-  components: {
-    Paragraph
-  }
 };
 </script>
 
-
-<style scoped>
-
-</style>;
+<style scoped></style>;

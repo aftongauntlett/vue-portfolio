@@ -10,12 +10,10 @@
         </div>
       </div>
     </div>
-    <Form />
   </div>
 </template>
 
 <script>
-import Form from "./Form";
 export default {
   data() {
     return {
@@ -53,9 +51,7 @@ export default {
       ],
     };
   },
-  components: {
-    Form,
-  },
+  components: {},
 };
 </script>
 

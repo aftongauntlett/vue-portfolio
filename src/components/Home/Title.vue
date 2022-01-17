@@ -21,7 +21,6 @@ export default {};
 
 .homeName {
   font-size: 60px;
-  font-family: "Martel", serif;
   text-align: center;
   color: rgba(230, 223, 235, 0.925);
   opacity: 0.5s ease;
@@ -29,7 +28,6 @@ export default {};
 
 .homeTitle {
   font-size: 30px;
-  font-family: "Martel", serif;
   text-align: center;
   color: rgba(215, 203, 223, 0.863);
 }

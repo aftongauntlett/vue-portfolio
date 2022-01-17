@@ -1,7 +1,14 @@
 <template>
   <div class="container d-flex justify-content-center techStack">
     <div class="row w-500b-5">
-      <div class="col-12 col-md-6 sm-6" v-for="item in techStack" :class="{light}" :key="item">{{item}}</div>
+      <div
+        class="col-12 col-md-6 sm-6"
+        v-for="item in techStack"
+        :class="{ light }"
+        :key="item"
+      >
+        {{ item }}
+      </div>
     </div>
   </div>
 </template>
@@ -11,31 +18,33 @@ export default {
   name: "techStack",
   props: {
     light: {
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
   data() {
     return {
       techStack: [
         "Vue",
+        "CSS/SASS/SCSS",
         "React",
-        "CSS",
         "Bootstrap",
-        "jQuery",
-        "JavaScript",
-        "PHP",
-        "WordPress",
-        "Adobe XD",
+        "Angular",
+        "Material Design",
+        "Typescript",
         "Responsive Design",
-        "Prototyping",
+        "JavaScript",
         "Wireframing",
+        "PHP",
+        "Adobe XD",
         "Node",
-        "GIT",
-        "HTML",
         "508c",
-      ]
+        "HTML",
+        "Github",
+        "GIT",
+        "Gitlabs",
+      ],
     };
-  }
+  },
 };
 </script>
 
@@ -44,7 +53,6 @@ export default {
   line-height: 200%;
   color: rgb(115, 118, 124);
   padding-top: 20px;
-  font-family: "Martel", serif;
 }
 
 .light {
