@@ -1,14 +1,10 @@
 <template>
-  <b-card
-    class="mb-3 m-md-5 myCard"
-    :img-src="imageLocation"
-    :title="project.title"
-  >
+  <b-card class="mb-3 m-md-5" :img-src="imageLocation" :title="project.title">
     <b-card-text>
       {{ project.description }}
       <div class="mt-3">
         <b-button
-          class="pButton ml-3 my-2"
+          class="port-btn ml-3 my-2"
           variant="dark"
           :href="project.deployedLink"
           target="_blank"
@@ -16,7 +12,7 @@
         >
         <b-button
           v-if="project.gitLink"
-          class="pButton ml-3 my-2"
+          class="port-btn ml-3 my-2"
           variant="dark"
           :href="project.gitLink"
           target="_blank"
@@ -42,20 +38,32 @@ export default {
 </script>
 
 <style scoped>
-.myCard {
+.card {
   max-width: 30rem;
-  min-width: 20px;
   border: unset;
-  padding-bottom: 30px;
   box-shadow: 5px 5px 10px 5px #979da23b;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-img {
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(26, 25, 25, 0.445);
+  border-bottom: 1px rgba(26, 25, 25, 0.445) solid;
+  padding-bottom: 10px;
 }
 
 .content {
   flex: 1 0 auto;
-}
-
-.slow {
-  animation: slow 0.5s ease forwards;
 }
 
 .pCards:hover {
@@ -67,5 +75,21 @@ export default {
 .pButton:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
+}
+
+.port-btn {
+  background-color: rgba(26, 25, 25, 0);
+  border: 1px rgba(26, 25, 25, 0.445) solid;
+  color: rgba(26, 25, 25, 0.753);
+  border-radius: 0;
+  min-width: 200px;
+}
+
+.port-btn:hover {
+  background-color: rgba(26, 25, 25, 0.753);
+  border: 1px rgba(247, 243, 243, 0.726) solid;
+  color: rgba(247, 243, 243, 0.726);
+  border-radius: 0;
+  min-width: 200px;
 }
 </style>

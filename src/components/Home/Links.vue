@@ -40,7 +40,7 @@ export default {
 
 @media only screen and (max-width: 600px) {
   .hCards {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 }
 </style>

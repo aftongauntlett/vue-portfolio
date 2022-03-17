@@ -35,7 +35,7 @@ export default {
 .aboutButton {
   opacity: 0.8;
   font-family: "Martel", serif;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 15px;
   padding-right: 15px;
 }

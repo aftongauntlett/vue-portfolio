@@ -1,11 +1,7 @@
 <template>
   <div class="d-flex justify-content-center">
-    <b-card class="contactCard ">
+    <b-card class="contactCard">
       <Title title="Contact" />
-      <div class="image-box">
-        <b-card-img class="image" :src="require('@/assets/images/afton.jpg')" />
-      </div>
-
       <ul class="list-group list-group-flush">
         <li class="contactCard contactButton">
           <a href="https://github.com/aftongauntlett" target="_blank">
@@ -102,7 +98,7 @@ export default {
 
 .contactButton {
   opacity: 0.8;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 10px;
   padding-top: 20px;
 }

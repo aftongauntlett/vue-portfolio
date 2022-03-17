@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-content-center">
-    <b-card class="projCard px-4">
-      <Title title="Projects" />
+    <b-card class="projCard">
+      <h2 class="main-title">PROJECTS</h2>
       <div class="info">
         These are my personal projects for learning purposes, please visit
         <a href="https://gauntletdesigns.com/" target="_blank"
@@ -47,14 +47,6 @@ export default {
           gitLink: "https://github.com/aftongauntlett/Catster",
           image: "catster.png",
         },
-        // {
-        //   title: "Follow|down",
-        //   description:
-        //     "Project for learning purposes only. Wireframing and Design built using Adobe XD, Backend and Hosting provided by Firebase, Frontend built using Vue and Bootstrap-vue.",
-        //   deployedLink: "https://followdown.com/",
-        //   gitLink: "https://github.com/aftongauntlett/followdown",
-        //   image: "followdown2.jpg",
-        // },
         {
           title: "Evocate",
           description:
@@ -89,14 +81,17 @@ export default {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.title {
-  padding-top: 40px;
-  padding-bottom: 10px;
-  font-size: 40px;
-  color: #555860;
-  border-bottom: 2px rgba(0, 0, 0, 0.301) solid;
-  max-width: 40%;
+
+.main-title {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+  border-bottom: 1px rgba(26, 25, 25, 0.445) solid;
+  padding-bottom: 30px;
+  padding-top: 10px;
   margin: auto;
+  width: 100%;
+  max-width: 600px;
 }
 
 .projCard {

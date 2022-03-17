@@ -1,16 +1,18 @@
 <template>
-  <div class="container d-flex justify-content-center techStack">
-    <div class="row w-500b-5">
-      <div
-        class="col-12 col-md-6 sm-6"
-        v-for="item in techStack"
-        :class="{ light }"
-        :key="item"
-      >
-        {{ item }}
+  <container>
+    <div class="d-flex justify-content-center techStack mx-auto pt-5">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 sm-6"
+          v-for="item in techStack"
+          :class="{ light }"
+          :key="item"
+        >
+          {{ item }}
+        </div>
       </div>
     </div>
-  </div>
+  </container>
 </template>
 
 <script>
@@ -33,15 +35,15 @@ export default {
         "Typescript",
         "Responsive Design",
         "JavaScript",
-        "Wireframing",
+        "Adobe Illustrator",
         "PHP",
         "Adobe XD",
         "Node",
-        "508c",
+        "Adobe After Effects",
         "HTML",
-        "Github",
-        "GIT",
-        "Gitlabs",
+        "Figma",
+        "Github/Gitlabs",
+        "508c",
       ],
     };
   },
@@ -53,6 +55,8 @@ export default {
   line-height: 200%;
   color: rgb(115, 118, 124);
   padding-top: 20px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .light {

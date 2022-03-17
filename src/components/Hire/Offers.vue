@@ -63,11 +63,11 @@ export default {
 }
 
 .hireTitle:hover {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .hireTitle {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .slow {

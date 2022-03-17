@@ -35,7 +35,7 @@ export default {
 <style>
 #app {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -73,29 +73,15 @@ html {
   background-color: #44484e;
 }
 
-.pimg1,
-.pimg2,
-.pimg3 {
+.pimg1 {
+  background-image: url("/assets/field.jpg");
+  min-height: 70vh;
   position: relative;
   opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-.pimg1 {
-  background-image: url("/assets/field.jpg");
-  min-height: 70vh;
-}
-
-.pimg2 {
-  background-image: url("/assets/space.jpg");
-  min-height: 400px;
-}
-
-.pimg3 {
-  background-image: url("/assets/space.jpg");
-  min-height: 400px;
 }
 
 .section {
@@ -135,8 +121,6 @@ html {
 }
 
 @media (max-width: 568px) {
-  .pimg3,
-  .pimg2,
   .pimg1 {
     background-attachment: scroll;
   }
