@@ -23,12 +23,6 @@ export default {
     Navbar,
     Footer,
   },
-
-  computed: {
-    imageUrl() {
-      return require("@/assets/images/desktop2.png");
-    },
-  },
 };
 </script>
 
