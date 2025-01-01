@@ -4,15 +4,8 @@
       {{ project.description }}
       <div class="mt-3">
         <b-button
-          class="port-btn ml-3 my-2"
-          variant="dark"
-          :href="project.deployedLink"
-          target="_blank"
-          >Deployed</b-button
-        >
-        <b-button
           v-if="project.gitLink"
-          class="port-btn ml-3 my-2"
+          class="port-btn my-2"
           variant="dark"
           :href="project.gitLink"
           target="_blank"

@@ -11,13 +11,9 @@
       <div class="container">
         <h2 class="main-title">About Me</h2>
         <p class="pt-5 about-me mx-auto">
-          I am a technology-minded individual with a passion for Front End Web
-          Development. Inspired by design and performance - I am able to build
-          fluid, attractive and responsive websites for any need. I have a
-          multi-disciplinary background in research and entrepreneurship, backed
-          with creativity and drive. I have over 2 years of professional
-          experience working with Vue, React and Angular frameworks. I am
-          proficient with both Bootstrap and Material Design.
+          I am a technology-driven, full-stack developer with a strong focus on front-end development, design, and accessibility. My multi-disciplinary background in research and entrepreneurship, combined with my passion for UI/UX, empowers me to craft innovative, user-centered solutions. I specialize in JavaScript and TypeScript, and I am dedicated to creating fluid, responsive, and accessible applications that meet high standards, including 508 compliance. With a creative mindset and a drive for excellence, I am always eager to tackle new challenges and turn ideas into impactful applications.
+
+
         </p>
       </div>
     </section>
