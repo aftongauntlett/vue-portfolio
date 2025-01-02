@@ -63,4 +63,14 @@ npm run serve
 
 #### Deployment
 
-- Handled by Github Actions
+<!-- Handled by Github Actions (WIP) -->
+
+```
+npm run build
+```
+
+Followed by:
+
+```
+sh deploy.sh
+```
