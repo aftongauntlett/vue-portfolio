@@ -8,14 +8,52 @@
     </div>
 
     <section class="section section-light">
-      <div class="container">
-        <h2 class="main-title">About Me</h2>
-        <p class="pt-5 about-me mx-auto">
-          I am a technology-driven, full-stack developer with a strong focus on front-end development, design, and accessibility. My multi-disciplinary background in research and entrepreneurship, combined with my passion for UI/UX, empowers me to craft innovative, user-centered solutions. I specialize in JavaScript and TypeScript, and I am dedicated to creating fluid, responsive, and accessible applications that meet high standards, including 508 compliance. With a creative mindset and a drive for excellence, I am always eager to tackle new challenges and turn ideas into impactful applications.
-
-
-        </p>
-      </div>
+      <b-container>
+        <b-row>
+          <b-col
+            xs="12"
+            md="8"
+            class="d-flex flex-column justify-content-center align-items-center text-center pt-3"
+          >
+            <h2 class="main-title">About Me</h2>
+            <p class="about-me mx-auto">
+              I am a technology-driven, full-stack developer with a strong focus
+              on front-end development, design, and accessibility. My
+              multi-disciplinary background in research and entrepreneurship,
+              combined with my passion for UI/UX, empowers me to craft
+              innovative, user-centered solutions. I specialize in JavaScript
+              and TypeScript, and I am dedicated to creating fluid, responsive,
+              and accessible applications that meet high standards, including
+              508 compliance. With a creative mindset and a drive for
+              excellence, I am always eager to tackle new challenges and turn
+              ideas into impactful applications.
+            </p>
+          </b-col>
+          <b-col
+            xs="12"
+            md="4"
+            class="d-flex justify-content-center align-items-center pt-3"
+          >
+            <img
+              :src="imageSrc"
+              alt="Profile picture"
+              class="small-image"
+              @click="showModal = true"
+              fluid
+            />
+          </b-col>
+        </b-row>
+        <b-modal v-model="showModal" centered hide-footer size="md">
+          <div class="modal-img-container">
+            <b-img
+              :src="imageSrc"
+              alt="Enlarged profile picture"
+              class="modal-image"
+              fluid
+            ></b-img>
+          </div>
+        </b-modal>
+      </b-container>
     </section>
 
     <section class="section section-dark">
@@ -84,6 +122,7 @@
 import Title from "../components/Home/Title";
 import Links from "../components/Home/Links";
 import TechStack from "@/components/About/TechStack";
+import profileImage from "@/assets/images/profile.jpg";
 
 export default {
   name: "Home",
@@ -91,6 +130,12 @@ export default {
     TechStack,
     Links,
     Title,
+  },
+  data() {
+    return {
+      showModal: false,
+      imageSrc: profileImage,
+    };
   },
 };
 </script>
@@ -156,5 +201,48 @@ export default {
 
 li {
   list-style-type: none;
+}
+
+.small-image {
+  width: 250px;
+  height: auto;
+  opacity: 0.8;
+  border-radius: 10px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.small-image:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.small-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.small-image:hover:before {
+  opacity: 1;
+}
+.modal-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.modal-image {
+  max-width: 400px;
+  height: auto;
+  opacity: 0.9;
+  border-radius: 10px;
 }
 </style>
