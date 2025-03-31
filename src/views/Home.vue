@@ -76,7 +76,7 @@
           <div>
             <b-btn
               class="contact-btn"
-              href="https://docs.google.com/document/d/1CkATUVmyFAcupvgI0j2ImEwS4ZSgP-MGnvveLyYhcfk/edit?usp=sharing"
+              href="https://flowcv.com/resume/s4j7fvac2cet"
               target="_blank"
             >
               Resume

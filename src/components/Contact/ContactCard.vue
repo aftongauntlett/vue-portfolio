@@ -45,7 +45,7 @@
         <li class="contactCard contactButton">
           <a
             class="card-link"
-            href="https://docs.google.com/document/d/1U2ayDYtXbvWhsw1L9R55H3V9NGjeuAcTP6dIvM382nM/edit?usp=sharing"
+            href="https://flowcv.com/resume/s4j7fvac2cet"
             target="_blank"
           >
             <i class="fa fa-file fa-2x text-dark"></i>
