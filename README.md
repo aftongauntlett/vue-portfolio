@@ -8,8 +8,6 @@
 
 **Github Repo:** https://github.com/aftongauntlett/vue-portfolio
 
-**Deployed:** https://aftongauntlett.com/
-
 ## Tech Stack
 
 Personal portfolio built using the following technologies:
