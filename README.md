@@ -4,10 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub followers](https://img.shields.io/github/followers/aftongauntlett?style=social)
 
-## About
-
-**Github Repo:** https://github.com/aftongauntlett/vue-portfolio
-
 ## Tech Stack
 
 Personal portfolio built using the following technologies:
